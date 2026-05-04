@@ -1,7 +1,8 @@
+
 {
   "success": true,
-  "message": "Media fetched successfully",
-  "total": 1000,
+  "message": "Media cleaned and fetched successfully",
+  "total": 833,
   "data": [
     {
       "id": 1,
@@ -68,22 +69,6 @@
       "createdAt": "2026-04-27T09:16:00Z"
     },
     {
-      "id": 5,
-      "title": "Sample Video 5",
-      "description": "Demo M3U8 video item 5 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+5",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 535,
-      "likes": 30,
-      "isPremium": false,
-      "createdAt": "2026-04-27T08:55:00Z"
-    },
-    {
       "id": 6,
       "title": "Sample Audio 6",
       "description": "Demo MP3 audio item 6 for React Native audio player practice",
@@ -130,22 +115,6 @@
       "likes": 18,
       "isPremium": false,
       "createdAt": "2026-04-27T08:32:00Z"
-    },
-    {
-      "id": 9,
-      "title": "Sample Video 9",
-      "description": "Demo MPD video item 9 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+9",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 563,
-      "likes": 38,
-      "isPremium": false,
-      "createdAt": "2026-04-27T08:03:00Z"
     },
     {
       "id": 10,
@@ -226,22 +195,6 @@
       "likes": 24,
       "isPremium": false,
       "createdAt": "2026-04-27T07:26:00Z"
-    },
-    {
-      "id": 15,
-      "title": "Sample Video 15",
-      "description": "Demo M3U8 video item 15 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+15",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 605,
-      "likes": 50,
-      "isPremium": false,
-      "createdAt": "2026-04-27T06:45:00Z"
     },
     {
       "id": 16,
@@ -356,22 +309,6 @@
       "createdAt": "2026-04-27T05:58:00Z"
     },
     {
-      "id": 23,
-      "title": "Sample Video 23",
-      "description": "Demo M3U8 video item 23 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+23",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 661,
-      "likes": 66,
-      "isPremium": false,
-      "createdAt": "2026-04-27T05:01:00Z"
-    },
-    {
       "id": 24,
       "title": "Sample Audio 24",
       "description": "Demo MP3 audio item 24 for React Native audio player practice",
@@ -418,22 +355,6 @@
       "likes": 36,
       "isPremium": false,
       "createdAt": "2026-04-27T05:14:00Z"
-    },
-    {
-      "id": 27,
-      "title": "Sample Video 27",
-      "description": "Demo MPD video item 27 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+27",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 689,
-      "likes": 74,
-      "isPremium": false,
-      "createdAt": "2026-04-27T04:09:00Z"
     },
     {
       "id": 28,
@@ -514,22 +435,6 @@
       "likes": 42,
       "isPremium": false,
       "createdAt": "2026-04-27T04:08:00Z"
-    },
-    {
-      "id": 33,
-      "title": "Sample Video 33",
-      "description": "Demo M3U8 video item 33 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+33",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 731,
-      "likes": 86,
-      "isPremium": false,
-      "createdAt": "2026-04-27T02:51:00Z"
     },
     {
       "id": 34,
@@ -644,22 +549,6 @@
       "createdAt": "2026-04-27T02:40:00Z"
     },
     {
-      "id": 41,
-      "title": "Sample Video 41",
-      "description": "Demo M3U8 video item 41 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+41",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 787,
-      "likes": 102,
-      "isPremium": false,
-      "createdAt": "2026-04-27T01:07:00Z"
-    },
-    {
       "id": 42,
       "title": "Sample Audio 42",
       "description": "Demo MP3 audio item 42 for React Native audio player practice",
@@ -706,22 +595,6 @@
       "likes": 54,
       "isPremium": false,
       "createdAt": "2026-04-27T01:56:00Z"
-    },
-    {
-      "id": 45,
-      "title": "Sample Video 45",
-      "description": "Demo MPD video item 45 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+45",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 815,
-      "likes": 110,
-      "isPremium": false,
-      "createdAt": "2026-04-27T00:15:00Z"
     },
     {
       "id": 46,
@@ -802,22 +675,6 @@
       "likes": 60,
       "isPremium": false,
       "createdAt": "2026-04-27T00:50:00Z"
-    },
-    {
-      "id": 51,
-      "title": "Sample Video 51",
-      "description": "Demo M3U8 video item 51 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+51",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 857,
-      "likes": 122,
-      "isPremium": false,
-      "createdAt": "2026-04-26T22:57:00Z"
     },
     {
       "id": 52,
@@ -932,22 +789,6 @@
       "createdAt": "2026-04-26T23:22:00Z"
     },
     {
-      "id": 59,
-      "title": "Sample Video 59",
-      "description": "Demo M3U8 video item 59 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+59",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 913,
-      "likes": 138,
-      "isPremium": false,
-      "createdAt": "2026-04-26T21:13:00Z"
-    },
-    {
       "id": 60,
       "title": "Sample Audio 60",
       "description": "Demo MP3 audio item 60 for React Native audio player practice",
@@ -994,22 +835,6 @@
       "likes": 72,
       "isPremium": false,
       "createdAt": "2026-04-26T22:38:00Z"
-    },
-    {
-      "id": 63,
-      "title": "Sample Video 63",
-      "description": "Demo MPD video item 63 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+63",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 941,
-      "likes": 146,
-      "isPremium": false,
-      "createdAt": "2026-04-26T20:21:00Z"
     },
     {
       "id": 64,
@@ -1090,22 +915,6 @@
       "likes": 78,
       "isPremium": false,
       "createdAt": "2026-04-26T21:32:00Z"
-    },
-    {
-      "id": 69,
-      "title": "Sample Video 69",
-      "description": "Demo M3U8 video item 69 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+69",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 983,
-      "likes": 158,
-      "isPremium": false,
-      "createdAt": "2026-04-26T19:03:00Z"
     },
     {
       "id": 70,
@@ -1220,22 +1029,6 @@
       "createdAt": "2026-04-26T20:04:00Z"
     },
     {
-      "id": 77,
-      "title": "Sample Video 77",
-      "description": "Demo M3U8 video item 77 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+77",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1039,
-      "likes": 174,
-      "isPremium": false,
-      "createdAt": "2026-04-26T17:19:00Z"
-    },
-    {
       "id": 78,
       "title": "Sample Audio 78",
       "description": "Demo MP3 audio item 78 for React Native audio player practice",
@@ -1282,22 +1075,6 @@
       "likes": 90,
       "isPremium": false,
       "createdAt": "2026-04-26T19:20:00Z"
-    },
-    {
-      "id": 81,
-      "title": "Sample Video 81",
-      "description": "Demo MPD video item 81 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+81",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1067,
-      "likes": 182,
-      "isPremium": false,
-      "createdAt": "2026-04-26T16:27:00Z"
     },
     {
       "id": 82,
@@ -1378,22 +1155,6 @@
       "likes": 96,
       "isPremium": false,
       "createdAt": "2026-04-26T18:14:00Z"
-    },
-    {
-      "id": 87,
-      "title": "Sample Video 87",
-      "description": "Demo M3U8 video item 87 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+87",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1109,
-      "likes": 194,
-      "isPremium": false,
-      "createdAt": "2026-04-26T15:09:00Z"
     },
     {
       "id": 88,
@@ -1508,22 +1269,6 @@
       "createdAt": "2026-04-26T16:46:00Z"
     },
     {
-      "id": 95,
-      "title": "Sample Video 95",
-      "description": "Demo M3U8 video item 95 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+95",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1165,
-      "likes": 210,
-      "isPremium": false,
-      "createdAt": "2026-04-26T13:25:00Z"
-    },
-    {
       "id": 96,
       "title": "Sample Audio 96",
       "description": "Demo MP3 audio item 96 for React Native audio player practice",
@@ -1570,22 +1315,6 @@
       "likes": 108,
       "isPremium": false,
       "createdAt": "2026-04-26T16:02:00Z"
-    },
-    {
-      "id": 99,
-      "title": "Sample Video 99",
-      "description": "Demo MPD video item 99 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+99",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1193,
-      "likes": 218,
-      "isPremium": false,
-      "createdAt": "2026-04-26T12:33:00Z"
     },
     {
       "id": 100,
@@ -1666,22 +1395,6 @@
       "likes": 114,
       "isPremium": false,
       "createdAt": "2026-04-26T14:56:00Z"
-    },
-    {
-      "id": 105,
-      "title": "Sample Video 105",
-      "description": "Demo M3U8 video item 105 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+105",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1235,
-      "likes": 230,
-      "isPremium": false,
-      "createdAt": "2026-04-26T11:15:00Z"
     },
     {
       "id": 106,
@@ -1796,22 +1509,6 @@
       "createdAt": "2026-04-26T13:28:00Z"
     },
     {
-      "id": 113,
-      "title": "Sample Video 113",
-      "description": "Demo M3U8 video item 113 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+113",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1291,
-      "likes": 246,
-      "isPremium": false,
-      "createdAt": "2026-04-26T09:31:00Z"
-    },
-    {
       "id": 114,
       "title": "Sample Audio 114",
       "description": "Demo MP3 audio item 114 for React Native audio player practice",
@@ -1858,22 +1555,6 @@
       "likes": 126,
       "isPremium": false,
       "createdAt": "2026-04-26T12:44:00Z"
-    },
-    {
-      "id": 117,
-      "title": "Sample Video 117",
-      "description": "Demo MPD video item 117 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+117",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1319,
-      "likes": 254,
-      "isPremium": false,
-      "createdAt": "2026-04-26T08:39:00Z"
     },
     {
       "id": 118,
@@ -1954,22 +1635,6 @@
       "likes": 132,
       "isPremium": false,
       "createdAt": "2026-04-26T11:38:00Z"
-    },
-    {
-      "id": 123,
-      "title": "Sample Video 123",
-      "description": "Demo M3U8 video item 123 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+123",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1361,
-      "likes": 266,
-      "isPremium": false,
-      "createdAt": "2026-04-26T07:21:00Z"
     },
     {
       "id": 124,
@@ -2084,22 +1749,6 @@
       "createdAt": "2026-04-26T10:10:00Z"
     },
     {
-      "id": 131,
-      "title": "Sample Video 131",
-      "description": "Demo M3U8 video item 131 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+131",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1417,
-      "likes": 282,
-      "isPremium": false,
-      "createdAt": "2026-04-26T05:37:00Z"
-    },
-    {
       "id": 132,
       "title": "Sample Audio 132",
       "description": "Demo MP3 audio item 132 for React Native audio player practice",
@@ -2146,22 +1795,6 @@
       "likes": 144,
       "isPremium": false,
       "createdAt": "2026-04-26T09:26:00Z"
-    },
-    {
-      "id": 135,
-      "title": "Sample Video 135",
-      "description": "Demo MPD video item 135 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+135",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1445,
-      "likes": 290,
-      "isPremium": false,
-      "createdAt": "2026-04-26T04:45:00Z"
     },
     {
       "id": 136,
@@ -2242,22 +1875,6 @@
       "likes": 150,
       "isPremium": false,
       "createdAt": "2026-04-26T08:20:00Z"
-    },
-    {
-      "id": 141,
-      "title": "Sample Video 141",
-      "description": "Demo M3U8 video item 141 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+141",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1487,
-      "likes": 302,
-      "isPremium": false,
-      "createdAt": "2026-04-26T03:27:00Z"
     },
     {
       "id": 142,
@@ -2372,22 +1989,6 @@
       "createdAt": "2026-04-26T06:52:00Z"
     },
     {
-      "id": 149,
-      "title": "Sample Video 149",
-      "description": "Demo M3U8 video item 149 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+149",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1543,
-      "likes": 318,
-      "isPremium": false,
-      "createdAt": "2026-04-26T01:43:00Z"
-    },
-    {
       "id": 150,
       "title": "Sample Audio 150",
       "description": "Demo MP3 audio item 150 for React Native audio player practice",
@@ -2434,22 +2035,6 @@
       "likes": 162,
       "isPremium": false,
       "createdAt": "2026-04-26T06:08:00Z"
-    },
-    {
-      "id": 153,
-      "title": "Sample Video 153",
-      "description": "Demo MPD video item 153 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+153",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1571,
-      "likes": 326,
-      "isPremium": false,
-      "createdAt": "2026-04-26T00:51:00Z"
     },
     {
       "id": 154,
@@ -2530,22 +2115,6 @@
       "likes": 168,
       "isPremium": false,
       "createdAt": "2026-04-26T05:02:00Z"
-    },
-    {
-      "id": 159,
-      "title": "Sample Video 159",
-      "description": "Demo M3U8 video item 159 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+159",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1613,
-      "likes": 338,
-      "isPremium": false,
-      "createdAt": "2026-04-25T23:33:00Z"
     },
     {
       "id": 160,
@@ -2660,22 +2229,6 @@
       "createdAt": "2026-04-26T03:34:00Z"
     },
     {
-      "id": 167,
-      "title": "Sample Video 167",
-      "description": "Demo M3U8 video item 167 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+167",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1669,
-      "likes": 354,
-      "isPremium": false,
-      "createdAt": "2026-04-25T21:49:00Z"
-    },
-    {
       "id": 168,
       "title": "Sample Audio 168",
       "description": "Demo MP3 audio item 168 for React Native audio player practice",
@@ -2722,22 +2275,6 @@
       "likes": 180,
       "isPremium": false,
       "createdAt": "2026-04-26T02:50:00Z"
-    },
-    {
-      "id": 171,
-      "title": "Sample Video 171",
-      "description": "Demo MPD video item 171 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+171",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1697,
-      "likes": 362,
-      "isPremium": false,
-      "createdAt": "2026-04-25T20:57:00Z"
     },
     {
       "id": 172,
@@ -2818,22 +2355,6 @@
       "likes": 186,
       "isPremium": false,
       "createdAt": "2026-04-26T01:44:00Z"
-    },
-    {
-      "id": 177,
-      "title": "Sample Video 177",
-      "description": "Demo M3U8 video item 177 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+177",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1739,
-      "likes": 374,
-      "isPremium": false,
-      "createdAt": "2026-04-25T19:39:00Z"
     },
     {
       "id": 178,
@@ -2948,22 +2469,6 @@
       "createdAt": "2026-04-26T00:16:00Z"
     },
     {
-      "id": 185,
-      "title": "Sample Video 185",
-      "description": "Demo M3U8 video item 185 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+185",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1795,
-      "likes": 390,
-      "isPremium": false,
-      "createdAt": "2026-04-25T17:55:00Z"
-    },
-    {
       "id": 186,
       "title": "Sample Audio 186",
       "description": "Demo MP3 audio item 186 for React Native audio player practice",
@@ -3010,22 +2515,6 @@
       "likes": 198,
       "isPremium": false,
       "createdAt": "2026-04-25T23:32:00Z"
-    },
-    {
-      "id": 189,
-      "title": "Sample Video 189",
-      "description": "Demo MPD video item 189 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+189",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1823,
-      "likes": 398,
-      "isPremium": false,
-      "createdAt": "2026-04-25T17:03:00Z"
     },
     {
       "id": 190,
@@ -3106,22 +2595,6 @@
       "likes": 204,
       "isPremium": false,
       "createdAt": "2026-04-25T22:26:00Z"
-    },
-    {
-      "id": 195,
-      "title": "Sample Video 195",
-      "description": "Demo M3U8 video item 195 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+195",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1865,
-      "likes": 410,
-      "isPremium": false,
-      "createdAt": "2026-04-25T15:45:00Z"
     },
     {
       "id": 196,
@@ -3236,22 +2709,6 @@
       "createdAt": "2026-04-25T20:58:00Z"
     },
     {
-      "id": 203,
-      "title": "Sample Video 203",
-      "description": "Demo M3U8 video item 203 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+203",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 1921,
-      "likes": 426,
-      "isPremium": false,
-      "createdAt": "2026-04-25T14:01:00Z"
-    },
-    {
       "id": 204,
       "title": "Sample Audio 204",
       "description": "Demo MP3 audio item 204 for React Native audio player practice",
@@ -3298,22 +2755,6 @@
       "likes": 216,
       "isPremium": false,
       "createdAt": "2026-04-25T20:14:00Z"
-    },
-    {
-      "id": 207,
-      "title": "Sample Video 207",
-      "description": "Demo MPD video item 207 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+207",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 1949,
-      "likes": 434,
-      "isPremium": false,
-      "createdAt": "2026-04-25T13:09:00Z"
     },
     {
       "id": 208,
@@ -3394,22 +2835,6 @@
       "likes": 222,
       "isPremium": false,
       "createdAt": "2026-04-25T19:08:00Z"
-    },
-    {
-      "id": 213,
-      "title": "Sample Video 213",
-      "description": "Demo M3U8 video item 213 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+213",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 1991,
-      "likes": 446,
-      "isPremium": false,
-      "createdAt": "2026-04-25T11:51:00Z"
     },
     {
       "id": 214,
@@ -3524,22 +2949,6 @@
       "createdAt": "2026-04-25T17:40:00Z"
     },
     {
-      "id": 221,
-      "title": "Sample Video 221",
-      "description": "Demo M3U8 video item 221 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+221",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2047,
-      "likes": 462,
-      "isPremium": false,
-      "createdAt": "2026-04-25T10:07:00Z"
-    },
-    {
       "id": 222,
       "title": "Sample Audio 222",
       "description": "Demo MP3 audio item 222 for React Native audio player practice",
@@ -3586,22 +2995,6 @@
       "likes": 234,
       "isPremium": false,
       "createdAt": "2026-04-25T16:56:00Z"
-    },
-    {
-      "id": 225,
-      "title": "Sample Video 225",
-      "description": "Demo MPD video item 225 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+225",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2075,
-      "likes": 470,
-      "isPremium": false,
-      "createdAt": "2026-04-25T09:15:00Z"
     },
     {
       "id": 226,
@@ -3682,22 +3075,6 @@
       "likes": 240,
       "isPremium": false,
       "createdAt": "2026-04-25T15:50:00Z"
-    },
-    {
-      "id": 231,
-      "title": "Sample Video 231",
-      "description": "Demo M3U8 video item 231 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+231",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2117,
-      "likes": 482,
-      "isPremium": false,
-      "createdAt": "2026-04-25T07:57:00Z"
     },
     {
       "id": 232,
@@ -3812,22 +3189,6 @@
       "createdAt": "2026-04-25T14:22:00Z"
     },
     {
-      "id": 239,
-      "title": "Sample Video 239",
-      "description": "Demo M3U8 video item 239 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+239",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2173,
-      "likes": 498,
-      "isPremium": false,
-      "createdAt": "2026-04-25T06:13:00Z"
-    },
-    {
       "id": 240,
       "title": "Sample Audio 240",
       "description": "Demo MP3 audio item 240 for React Native audio player practice",
@@ -3874,22 +3235,6 @@
       "likes": 252,
       "isPremium": false,
       "createdAt": "2026-04-25T13:38:00Z"
-    },
-    {
-      "id": 243,
-      "title": "Sample Video 243",
-      "description": "Demo MPD video item 243 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+243",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2201,
-      "likes": 506,
-      "isPremium": false,
-      "createdAt": "2026-04-25T05:21:00Z"
     },
     {
       "id": 244,
@@ -3970,22 +3315,6 @@
       "likes": 258,
       "isPremium": false,
       "createdAt": "2026-04-25T12:32:00Z"
-    },
-    {
-      "id": 249,
-      "title": "Sample Video 249",
-      "description": "Demo M3U8 video item 249 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+249",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2243,
-      "likes": 518,
-      "isPremium": false,
-      "createdAt": "2026-04-25T04:03:00Z"
     },
     {
       "id": 250,
@@ -4100,22 +3429,6 @@
       "createdAt": "2026-04-25T11:04:00Z"
     },
     {
-      "id": 257,
-      "title": "Sample Video 257",
-      "description": "Demo M3U8 video item 257 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+257",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2299,
-      "likes": 534,
-      "isPremium": false,
-      "createdAt": "2026-04-25T02:19:00Z"
-    },
-    {
       "id": 258,
       "title": "Sample Audio 258",
       "description": "Demo MP3 audio item 258 for React Native audio player practice",
@@ -4162,22 +3475,6 @@
       "likes": 270,
       "isPremium": false,
       "createdAt": "2026-04-25T10:20:00Z"
-    },
-    {
-      "id": 261,
-      "title": "Sample Video 261",
-      "description": "Demo MPD video item 261 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+261",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2327,
-      "likes": 542,
-      "isPremium": false,
-      "createdAt": "2026-04-25T01:27:00Z"
     },
     {
       "id": 262,
@@ -4258,22 +3555,6 @@
       "likes": 276,
       "isPremium": false,
       "createdAt": "2026-04-25T09:14:00Z"
-    },
-    {
-      "id": 267,
-      "title": "Sample Video 267",
-      "description": "Demo M3U8 video item 267 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+267",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2369,
-      "likes": 554,
-      "isPremium": false,
-      "createdAt": "2026-04-25T00:09:00Z"
     },
     {
       "id": 268,
@@ -4388,22 +3669,6 @@
       "createdAt": "2026-04-25T07:46:00Z"
     },
     {
-      "id": 275,
-      "title": "Sample Video 275",
-      "description": "Demo M3U8 video item 275 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+275",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2425,
-      "likes": 570,
-      "isPremium": false,
-      "createdAt": "2026-04-24T22:25:00Z"
-    },
-    {
       "id": 276,
       "title": "Sample Audio 276",
       "description": "Demo MP3 audio item 276 for React Native audio player practice",
@@ -4450,22 +3715,6 @@
       "likes": 288,
       "isPremium": false,
       "createdAt": "2026-04-25T07:02:00Z"
-    },
-    {
-      "id": 279,
-      "title": "Sample Video 279",
-      "description": "Demo MPD video item 279 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+279",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2453,
-      "likes": 578,
-      "isPremium": false,
-      "createdAt": "2026-04-24T21:33:00Z"
     },
     {
       "id": 280,
@@ -4546,22 +3795,6 @@
       "likes": 294,
       "isPremium": false,
       "createdAt": "2026-04-25T05:56:00Z"
-    },
-    {
-      "id": 285,
-      "title": "Sample Video 285",
-      "description": "Demo M3U8 video item 285 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+285",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2495,
-      "likes": 590,
-      "isPremium": false,
-      "createdAt": "2026-04-24T20:15:00Z"
     },
     {
       "id": 286,
@@ -4676,22 +3909,6 @@
       "createdAt": "2026-04-25T04:28:00Z"
     },
     {
-      "id": 293,
-      "title": "Sample Video 293",
-      "description": "Demo M3U8 video item 293 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+293",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2551,
-      "likes": 606,
-      "isPremium": false,
-      "createdAt": "2026-04-24T18:31:00Z"
-    },
-    {
       "id": 294,
       "title": "Sample Audio 294",
       "description": "Demo MP3 audio item 294 for React Native audio player practice",
@@ -4738,22 +3955,6 @@
       "likes": 306,
       "isPremium": false,
       "createdAt": "2026-04-25T03:44:00Z"
-    },
-    {
-      "id": 297,
-      "title": "Sample Video 297",
-      "description": "Demo MPD video item 297 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+297",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2579,
-      "likes": 614,
-      "isPremium": false,
-      "createdAt": "2026-04-24T17:39:00Z"
     },
     {
       "id": 298,
@@ -4834,22 +4035,6 @@
       "likes": 312,
       "isPremium": false,
       "createdAt": "2026-04-25T02:38:00Z"
-    },
-    {
-      "id": 303,
-      "title": "Sample Video 303",
-      "description": "Demo M3U8 video item 303 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+303",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2621,
-      "likes": 626,
-      "isPremium": false,
-      "createdAt": "2026-04-24T16:21:00Z"
     },
     {
       "id": 304,
@@ -4964,22 +4149,6 @@
       "createdAt": "2026-04-25T01:10:00Z"
     },
     {
-      "id": 311,
-      "title": "Sample Video 311",
-      "description": "Demo M3U8 video item 311 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+311",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2677,
-      "likes": 642,
-      "isPremium": false,
-      "createdAt": "2026-04-24T14:37:00Z"
-    },
-    {
       "id": 312,
       "title": "Sample Audio 312",
       "description": "Demo MP3 audio item 312 for React Native audio player practice",
@@ -5026,22 +4195,6 @@
       "likes": 324,
       "isPremium": false,
       "createdAt": "2026-04-25T00:26:00Z"
-    },
-    {
-      "id": 315,
-      "title": "Sample Video 315",
-      "description": "Demo MPD video item 315 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+315",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2705,
-      "likes": 650,
-      "isPremium": false,
-      "createdAt": "2026-04-24T13:45:00Z"
     },
     {
       "id": 316,
@@ -5122,22 +4275,6 @@
       "likes": 330,
       "isPremium": false,
       "createdAt": "2026-04-24T23:20:00Z"
-    },
-    {
-      "id": 321,
-      "title": "Sample Video 321",
-      "description": "Demo M3U8 video item 321 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+321",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2747,
-      "likes": 662,
-      "isPremium": false,
-      "createdAt": "2026-04-24T12:27:00Z"
     },
     {
       "id": 322,
@@ -5252,22 +4389,6 @@
       "createdAt": "2026-04-24T21:52:00Z"
     },
     {
-      "id": 329,
-      "title": "Sample Video 329",
-      "description": "Demo M3U8 video item 329 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+329",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2803,
-      "likes": 678,
-      "isPremium": false,
-      "createdAt": "2026-04-24T10:43:00Z"
-    },
-    {
       "id": 330,
       "title": "Sample Audio 330",
       "description": "Demo MP3 audio item 330 for React Native audio player practice",
@@ -5314,22 +4435,6 @@
       "likes": 342,
       "isPremium": false,
       "createdAt": "2026-04-24T21:08:00Z"
-    },
-    {
-      "id": 333,
-      "title": "Sample Video 333",
-      "description": "Demo MPD video item 333 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+333",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2831,
-      "likes": 686,
-      "isPremium": false,
-      "createdAt": "2026-04-24T09:51:00Z"
     },
     {
       "id": 334,
@@ -5410,22 +4515,6 @@
       "likes": 348,
       "isPremium": false,
       "createdAt": "2026-04-24T20:02:00Z"
-    },
-    {
-      "id": 339,
-      "title": "Sample Video 339",
-      "description": "Demo M3U8 video item 339 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+339",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2873,
-      "likes": 698,
-      "isPremium": false,
-      "createdAt": "2026-04-24T08:33:00Z"
     },
     {
       "id": 340,
@@ -5540,22 +4629,6 @@
       "createdAt": "2026-04-24T18:34:00Z"
     },
     {
-      "id": 347,
-      "title": "Sample Video 347",
-      "description": "Demo M3U8 video item 347 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+347",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 2929,
-      "likes": 714,
-      "isPremium": false,
-      "createdAt": "2026-04-24T06:49:00Z"
-    },
-    {
       "id": 348,
       "title": "Sample Audio 348",
       "description": "Demo MP3 audio item 348 for React Native audio player practice",
@@ -5602,22 +4675,6 @@
       "likes": 360,
       "isPremium": false,
       "createdAt": "2026-04-24T17:50:00Z"
-    },
-    {
-      "id": 351,
-      "title": "Sample Video 351",
-      "description": "Demo MPD video item 351 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+351",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 2957,
-      "likes": 722,
-      "isPremium": false,
-      "createdAt": "2026-04-24T05:57:00Z"
     },
     {
       "id": 352,
@@ -5698,22 +4755,6 @@
       "likes": 366,
       "isPremium": false,
       "createdAt": "2026-04-24T16:44:00Z"
-    },
-    {
-      "id": 357,
-      "title": "Sample Video 357",
-      "description": "Demo M3U8 video item 357 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+357",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 2999,
-      "likes": 734,
-      "isPremium": false,
-      "createdAt": "2026-04-24T04:39:00Z"
     },
     {
       "id": 358,
@@ -5828,22 +4869,6 @@
       "createdAt": "2026-04-24T15:16:00Z"
     },
     {
-      "id": 365,
-      "title": "Sample Video 365",
-      "description": "Demo M3U8 video item 365 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+365",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3055,
-      "likes": 750,
-      "isPremium": false,
-      "createdAt": "2026-04-24T02:55:00Z"
-    },
-    {
       "id": 366,
       "title": "Sample Audio 366",
       "description": "Demo MP3 audio item 366 for React Native audio player practice",
@@ -5890,22 +4915,6 @@
       "likes": 378,
       "isPremium": false,
       "createdAt": "2026-04-24T14:32:00Z"
-    },
-    {
-      "id": 369,
-      "title": "Sample Video 369",
-      "description": "Demo MPD video item 369 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+369",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3083,
-      "likes": 758,
-      "isPremium": false,
-      "createdAt": "2026-04-24T02:03:00Z"
     },
     {
       "id": 370,
@@ -5986,22 +4995,6 @@
       "likes": 384,
       "isPremium": false,
       "createdAt": "2026-04-24T13:26:00Z"
-    },
-    {
-      "id": 375,
-      "title": "Sample Video 375",
-      "description": "Demo M3U8 video item 375 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+375",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3125,
-      "likes": 770,
-      "isPremium": false,
-      "createdAt": "2026-04-24T00:45:00Z"
     },
     {
       "id": 376,
@@ -6116,22 +5109,6 @@
       "createdAt": "2026-04-24T11:58:00Z"
     },
     {
-      "id": 383,
-      "title": "Sample Video 383",
-      "description": "Demo M3U8 video item 383 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+383",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3181,
-      "likes": 786,
-      "isPremium": false,
-      "createdAt": "2026-04-23T23:01:00Z"
-    },
-    {
       "id": 384,
       "title": "Sample Audio 384",
       "description": "Demo MP3 audio item 384 for React Native audio player practice",
@@ -6178,22 +5155,6 @@
       "likes": 396,
       "isPremium": false,
       "createdAt": "2026-04-24T11:14:00Z"
-    },
-    {
-      "id": 387,
-      "title": "Sample Video 387",
-      "description": "Demo MPD video item 387 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+387",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3209,
-      "likes": 794,
-      "isPremium": false,
-      "createdAt": "2026-04-23T22:09:00Z"
     },
     {
       "id": 388,
@@ -6274,22 +5235,6 @@
       "likes": 402,
       "isPremium": false,
       "createdAt": "2026-04-24T10:08:00Z"
-    },
-    {
-      "id": 393,
-      "title": "Sample Video 393",
-      "description": "Demo M3U8 video item 393 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+393",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3251,
-      "likes": 806,
-      "isPremium": false,
-      "createdAt": "2026-04-23T20:51:00Z"
     },
     {
       "id": 394,
@@ -6404,22 +5349,6 @@
       "createdAt": "2026-04-24T08:40:00Z"
     },
     {
-      "id": 401,
-      "title": "Sample Video 401",
-      "description": "Demo M3U8 video item 401 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+401",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3307,
-      "likes": 822,
-      "isPremium": false,
-      "createdAt": "2026-04-23T19:07:00Z"
-    },
-    {
       "id": 402,
       "title": "Sample Audio 402",
       "description": "Demo MP3 audio item 402 for React Native audio player practice",
@@ -6466,22 +5395,6 @@
       "likes": 414,
       "isPremium": false,
       "createdAt": "2026-04-24T07:56:00Z"
-    },
-    {
-      "id": 405,
-      "title": "Sample Video 405",
-      "description": "Demo MPD video item 405 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+405",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3335,
-      "likes": 830,
-      "isPremium": false,
-      "createdAt": "2026-04-23T18:15:00Z"
     },
     {
       "id": 406,
@@ -6562,22 +5475,6 @@
       "likes": 420,
       "isPremium": false,
       "createdAt": "2026-04-24T06:50:00Z"
-    },
-    {
-      "id": 411,
-      "title": "Sample Video 411",
-      "description": "Demo M3U8 video item 411 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+411",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3377,
-      "likes": 842,
-      "isPremium": false,
-      "createdAt": "2026-04-23T16:57:00Z"
     },
     {
       "id": 412,
@@ -6692,22 +5589,6 @@
       "createdAt": "2026-04-24T05:22:00Z"
     },
     {
-      "id": 419,
-      "title": "Sample Video 419",
-      "description": "Demo M3U8 video item 419 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+419",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3433,
-      "likes": 858,
-      "isPremium": false,
-      "createdAt": "2026-04-23T15:13:00Z"
-    },
-    {
       "id": 420,
       "title": "Sample Audio 420",
       "description": "Demo MP3 audio item 420 for React Native audio player practice",
@@ -6754,22 +5635,6 @@
       "likes": 432,
       "isPremium": false,
       "createdAt": "2026-04-24T04:38:00Z"
-    },
-    {
-      "id": 423,
-      "title": "Sample Video 423",
-      "description": "Demo MPD video item 423 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+423",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3461,
-      "likes": 866,
-      "isPremium": false,
-      "createdAt": "2026-04-23T14:21:00Z"
     },
     {
       "id": 424,
@@ -6850,22 +5715,6 @@
       "likes": 438,
       "isPremium": false,
       "createdAt": "2026-04-24T03:32:00Z"
-    },
-    {
-      "id": 429,
-      "title": "Sample Video 429",
-      "description": "Demo M3U8 video item 429 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+429",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3503,
-      "likes": 878,
-      "isPremium": false,
-      "createdAt": "2026-04-23T13:03:00Z"
     },
     {
       "id": 430,
@@ -6980,22 +5829,6 @@
       "createdAt": "2026-04-24T02:04:00Z"
     },
     {
-      "id": 437,
-      "title": "Sample Video 437",
-      "description": "Demo M3U8 video item 437 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+437",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3559,
-      "likes": 894,
-      "isPremium": false,
-      "createdAt": "2026-04-23T11:19:00Z"
-    },
-    {
       "id": 438,
       "title": "Sample Audio 438",
       "description": "Demo MP3 audio item 438 for React Native audio player practice",
@@ -7042,22 +5875,6 @@
       "likes": 450,
       "isPremium": false,
       "createdAt": "2026-04-24T01:20:00Z"
-    },
-    {
-      "id": 441,
-      "title": "Sample Video 441",
-      "description": "Demo MPD video item 441 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+441",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3587,
-      "likes": 902,
-      "isPremium": false,
-      "createdAt": "2026-04-23T10:27:00Z"
     },
     {
       "id": 442,
@@ -7138,22 +5955,6 @@
       "likes": 456,
       "isPremium": false,
       "createdAt": "2026-04-24T00:14:00Z"
-    },
-    {
-      "id": 447,
-      "title": "Sample Video 447",
-      "description": "Demo M3U8 video item 447 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+447",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3629,
-      "likes": 914,
-      "isPremium": false,
-      "createdAt": "2026-04-23T09:09:00Z"
     },
     {
       "id": 448,
@@ -7268,22 +6069,6 @@
       "createdAt": "2026-04-23T22:46:00Z"
     },
     {
-      "id": 455,
-      "title": "Sample Video 455",
-      "description": "Demo M3U8 video item 455 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+455",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3685,
-      "likes": 930,
-      "isPremium": false,
-      "createdAt": "2026-04-23T07:25:00Z"
-    },
-    {
       "id": 456,
       "title": "Sample Audio 456",
       "description": "Demo MP3 audio item 456 for React Native audio player practice",
@@ -7330,22 +6115,6 @@
       "likes": 468,
       "isPremium": false,
       "createdAt": "2026-04-23T22:02:00Z"
-    },
-    {
-      "id": 459,
-      "title": "Sample Video 459",
-      "description": "Demo MPD video item 459 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+459",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3713,
-      "likes": 938,
-      "isPremium": false,
-      "createdAt": "2026-04-23T06:33:00Z"
     },
     {
       "id": 460,
@@ -7426,22 +6195,6 @@
       "likes": 474,
       "isPremium": false,
       "createdAt": "2026-04-23T20:56:00Z"
-    },
-    {
-      "id": 465,
-      "title": "Sample Video 465",
-      "description": "Demo M3U8 video item 465 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+465",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3755,
-      "likes": 950,
-      "isPremium": false,
-      "createdAt": "2026-04-23T05:15:00Z"
     },
     {
       "id": 466,
@@ -7556,22 +6309,6 @@
       "createdAt": "2026-04-23T19:28:00Z"
     },
     {
-      "id": 473,
-      "title": "Sample Video 473",
-      "description": "Demo M3U8 video item 473 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+473",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3811,
-      "likes": 966,
-      "isPremium": false,
-      "createdAt": "2026-04-23T03:31:00Z"
-    },
-    {
       "id": 474,
       "title": "Sample Audio 474",
       "description": "Demo MP3 audio item 474 for React Native audio player practice",
@@ -7618,22 +6355,6 @@
       "likes": 486,
       "isPremium": false,
       "createdAt": "2026-04-23T18:44:00Z"
-    },
-    {
-      "id": 477,
-      "title": "Sample Video 477",
-      "description": "Demo MPD video item 477 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+477",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3839,
-      "likes": 974,
-      "isPremium": false,
-      "createdAt": "2026-04-23T02:39:00Z"
     },
     {
       "id": 478,
@@ -7714,22 +6435,6 @@
       "likes": 492,
       "isPremium": false,
       "createdAt": "2026-04-23T17:38:00Z"
-    },
-    {
-      "id": 483,
-      "title": "Sample Video 483",
-      "description": "Demo M3U8 video item 483 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+483",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 3881,
-      "likes": 986,
-      "isPremium": false,
-      "createdAt": "2026-04-23T01:21:00Z"
     },
     {
       "id": 484,
@@ -7844,22 +6549,6 @@
       "createdAt": "2026-04-23T16:10:00Z"
     },
     {
-      "id": 491,
-      "title": "Sample Video 491",
-      "description": "Demo M3U8 video item 491 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+491",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 3937,
-      "likes": 1002,
-      "isPremium": false,
-      "createdAt": "2026-04-22T23:37:00Z"
-    },
-    {
       "id": 492,
       "title": "Sample Audio 492",
       "description": "Demo MP3 audio item 492 for React Native audio player practice",
@@ -7906,22 +6595,6 @@
       "likes": 504,
       "isPremium": false,
       "createdAt": "2026-04-23T15:26:00Z"
-    },
-    {
-      "id": 495,
-      "title": "Sample Video 495",
-      "description": "Demo MPD video item 495 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+495",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 3965,
-      "likes": 1010,
-      "isPremium": false,
-      "createdAt": "2026-04-22T22:45:00Z"
     },
     {
       "id": 496,
@@ -8002,22 +6675,6 @@
       "likes": 510,
       "isPremium": false,
       "createdAt": "2026-04-23T14:20:00Z"
-    },
-    {
-      "id": 501,
-      "title": "Sample Video 501",
-      "description": "Demo M3U8 video item 501 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+501",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4007,
-      "likes": 1022,
-      "isPremium": false,
-      "createdAt": "2026-04-22T21:27:00Z"
     },
     {
       "id": 502,
@@ -8132,22 +6789,6 @@
       "createdAt": "2026-04-23T12:52:00Z"
     },
     {
-      "id": 509,
-      "title": "Sample Video 509",
-      "description": "Demo M3U8 video item 509 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+509",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4063,
-      "likes": 1038,
-      "isPremium": false,
-      "createdAt": "2026-04-22T19:43:00Z"
-    },
-    {
       "id": 510,
       "title": "Sample Audio 510",
       "description": "Demo MP3 audio item 510 for React Native audio player practice",
@@ -8194,22 +6835,6 @@
       "likes": 522,
       "isPremium": false,
       "createdAt": "2026-04-23T12:08:00Z"
-    },
-    {
-      "id": 513,
-      "title": "Sample Video 513",
-      "description": "Demo MPD video item 513 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+513",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4091,
-      "likes": 1046,
-      "isPremium": false,
-      "createdAt": "2026-04-22T18:51:00Z"
     },
     {
       "id": 514,
@@ -8290,22 +6915,6 @@
       "likes": 528,
       "isPremium": false,
       "createdAt": "2026-04-23T11:02:00Z"
-    },
-    {
-      "id": 519,
-      "title": "Sample Video 519",
-      "description": "Demo M3U8 video item 519 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+519",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4133,
-      "likes": 1058,
-      "isPremium": false,
-      "createdAt": "2026-04-22T17:33:00Z"
     },
     {
       "id": 520,
@@ -8420,22 +7029,6 @@
       "createdAt": "2026-04-23T09:34:00Z"
     },
     {
-      "id": 527,
-      "title": "Sample Video 527",
-      "description": "Demo M3U8 video item 527 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+527",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4189,
-      "likes": 1074,
-      "isPremium": false,
-      "createdAt": "2026-04-22T15:49:00Z"
-    },
-    {
       "id": 528,
       "title": "Sample Audio 528",
       "description": "Demo MP3 audio item 528 for React Native audio player practice",
@@ -8482,22 +7075,6 @@
       "likes": 540,
       "isPremium": false,
       "createdAt": "2026-04-23T08:50:00Z"
-    },
-    {
-      "id": 531,
-      "title": "Sample Video 531",
-      "description": "Demo MPD video item 531 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+531",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4217,
-      "likes": 1082,
-      "isPremium": false,
-      "createdAt": "2026-04-22T14:57:00Z"
     },
     {
       "id": 532,
@@ -8578,22 +7155,6 @@
       "likes": 546,
       "isPremium": false,
       "createdAt": "2026-04-23T07:44:00Z"
-    },
-    {
-      "id": 537,
-      "title": "Sample Video 537",
-      "description": "Demo M3U8 video item 537 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+537",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4259,
-      "likes": 1094,
-      "isPremium": false,
-      "createdAt": "2026-04-22T13:39:00Z"
     },
     {
       "id": 538,
@@ -8708,22 +7269,6 @@
       "createdAt": "2026-04-23T06:16:00Z"
     },
     {
-      "id": 545,
-      "title": "Sample Video 545",
-      "description": "Demo M3U8 video item 545 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+545",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4315,
-      "likes": 1110,
-      "isPremium": false,
-      "createdAt": "2026-04-22T11:55:00Z"
-    },
-    {
       "id": 546,
       "title": "Sample Audio 546",
       "description": "Demo MP3 audio item 546 for React Native audio player practice",
@@ -8770,22 +7315,6 @@
       "likes": 558,
       "isPremium": false,
       "createdAt": "2026-04-23T05:32:00Z"
-    },
-    {
-      "id": 549,
-      "title": "Sample Video 549",
-      "description": "Demo MPD video item 549 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+549",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4343,
-      "likes": 1118,
-      "isPremium": false,
-      "createdAt": "2026-04-22T11:03:00Z"
     },
     {
       "id": 550,
@@ -8866,22 +7395,6 @@
       "likes": 564,
       "isPremium": false,
       "createdAt": "2026-04-23T04:26:00Z"
-    },
-    {
-      "id": 555,
-      "title": "Sample Video 555",
-      "description": "Demo M3U8 video item 555 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+555",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4385,
-      "likes": 1130,
-      "isPremium": false,
-      "createdAt": "2026-04-22T09:45:00Z"
     },
     {
       "id": 556,
@@ -8996,22 +7509,6 @@
       "createdAt": "2026-04-23T02:58:00Z"
     },
     {
-      "id": 563,
-      "title": "Sample Video 563",
-      "description": "Demo M3U8 video item 563 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+563",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4441,
-      "likes": 1146,
-      "isPremium": false,
-      "createdAt": "2026-04-22T08:01:00Z"
-    },
-    {
       "id": 564,
       "title": "Sample Audio 564",
       "description": "Demo MP3 audio item 564 for React Native audio player practice",
@@ -9058,22 +7555,6 @@
       "likes": 576,
       "isPremium": false,
       "createdAt": "2026-04-23T02:14:00Z"
-    },
-    {
-      "id": 567,
-      "title": "Sample Video 567",
-      "description": "Demo MPD video item 567 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+567",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4469,
-      "likes": 1154,
-      "isPremium": false,
-      "createdAt": "2026-04-22T07:09:00Z"
     },
     {
       "id": 568,
@@ -9154,22 +7635,6 @@
       "likes": 582,
       "isPremium": false,
       "createdAt": "2026-04-23T01:08:00Z"
-    },
-    {
-      "id": 573,
-      "title": "Sample Video 573",
-      "description": "Demo M3U8 video item 573 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+573",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4511,
-      "likes": 1166,
-      "isPremium": false,
-      "createdAt": "2026-04-22T05:51:00Z"
     },
     {
       "id": 574,
@@ -9284,22 +7749,6 @@
       "createdAt": "2026-04-22T23:40:00Z"
     },
     {
-      "id": 581,
-      "title": "Sample Video 581",
-      "description": "Demo M3U8 video item 581 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+581",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4567,
-      "likes": 1182,
-      "isPremium": false,
-      "createdAt": "2026-04-22T04:07:00Z"
-    },
-    {
       "id": 582,
       "title": "Sample Audio 582",
       "description": "Demo MP3 audio item 582 for React Native audio player practice",
@@ -9346,22 +7795,6 @@
       "likes": 594,
       "isPremium": false,
       "createdAt": "2026-04-22T22:56:00Z"
-    },
-    {
-      "id": 585,
-      "title": "Sample Video 585",
-      "description": "Demo MPD video item 585 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+585",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4595,
-      "likes": 1190,
-      "isPremium": false,
-      "createdAt": "2026-04-22T03:15:00Z"
     },
     {
       "id": 586,
@@ -9442,22 +7875,6 @@
       "likes": 600,
       "isPremium": false,
       "createdAt": "2026-04-22T21:50:00Z"
-    },
-    {
-      "id": 591,
-      "title": "Sample Video 591",
-      "description": "Demo M3U8 video item 591 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+591",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4637,
-      "likes": 1202,
-      "isPremium": false,
-      "createdAt": "2026-04-22T01:57:00Z"
     },
     {
       "id": 592,
@@ -9572,22 +7989,6 @@
       "createdAt": "2026-04-22T20:22:00Z"
     },
     {
-      "id": 599,
-      "title": "Sample Video 599",
-      "description": "Demo M3U8 video item 599 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+599",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4693,
-      "likes": 1218,
-      "isPremium": false,
-      "createdAt": "2026-04-22T00:13:00Z"
-    },
-    {
       "id": 600,
       "title": "Sample Audio 600",
       "description": "Demo MP3 audio item 600 for React Native audio player practice",
@@ -9634,22 +8035,6 @@
       "likes": 612,
       "isPremium": false,
       "createdAt": "2026-04-22T19:38:00Z"
-    },
-    {
-      "id": 603,
-      "title": "Sample Video 603",
-      "description": "Demo MPD video item 603 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+603",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4721,
-      "likes": 1226,
-      "isPremium": false,
-      "createdAt": "2026-04-21T23:21:00Z"
     },
     {
       "id": 604,
@@ -9730,22 +8115,6 @@
       "likes": 618,
       "isPremium": false,
       "createdAt": "2026-04-22T18:32:00Z"
-    },
-    {
-      "id": 609,
-      "title": "Sample Video 609",
-      "description": "Demo M3U8 video item 609 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+609",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4763,
-      "likes": 1238,
-      "isPremium": false,
-      "createdAt": "2026-04-21T22:03:00Z"
     },
     {
       "id": 610,
@@ -9860,22 +8229,6 @@
       "createdAt": "2026-04-22T17:04:00Z"
     },
     {
-      "id": 617,
-      "title": "Sample Video 617",
-      "description": "Demo M3U8 video item 617 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+617",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4819,
-      "likes": 1254,
-      "isPremium": false,
-      "createdAt": "2026-04-21T20:19:00Z"
-    },
-    {
       "id": 618,
       "title": "Sample Audio 618",
       "description": "Demo MP3 audio item 618 for React Native audio player practice",
@@ -9922,22 +8275,6 @@
       "likes": 630,
       "isPremium": false,
       "createdAt": "2026-04-22T16:20:00Z"
-    },
-    {
-      "id": 621,
-      "title": "Sample Video 621",
-      "description": "Demo MPD video item 621 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+621",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4847,
-      "likes": 1262,
-      "isPremium": false,
-      "createdAt": "2026-04-21T19:27:00Z"
     },
     {
       "id": 622,
@@ -10018,22 +8355,6 @@
       "likes": 636,
       "isPremium": false,
       "createdAt": "2026-04-22T15:14:00Z"
-    },
-    {
-      "id": 627,
-      "title": "Sample Video 627",
-      "description": "Demo M3U8 video item 627 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+627",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 4889,
-      "likes": 1274,
-      "isPremium": false,
-      "createdAt": "2026-04-21T18:09:00Z"
     },
     {
       "id": 628,
@@ -10148,22 +8469,6 @@
       "createdAt": "2026-04-22T13:46:00Z"
     },
     {
-      "id": 635,
-      "title": "Sample Video 635",
-      "description": "Demo M3U8 video item 635 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+635",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 4945,
-      "likes": 1290,
-      "isPremium": false,
-      "createdAt": "2026-04-21T16:25:00Z"
-    },
-    {
       "id": 636,
       "title": "Sample Audio 636",
       "description": "Demo MP3 audio item 636 for React Native audio player practice",
@@ -10210,22 +8515,6 @@
       "likes": 648,
       "isPremium": false,
       "createdAt": "2026-04-22T13:02:00Z"
-    },
-    {
-      "id": 639,
-      "title": "Sample Video 639",
-      "description": "Demo MPD video item 639 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+639",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 4973,
-      "likes": 1298,
-      "isPremium": false,
-      "createdAt": "2026-04-21T15:33:00Z"
     },
     {
       "id": 640,
@@ -10306,22 +8595,6 @@
       "likes": 654,
       "isPremium": false,
       "createdAt": "2026-04-22T11:56:00Z"
-    },
-    {
-      "id": 645,
-      "title": "Sample Video 645",
-      "description": "Demo M3U8 video item 645 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+645",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5015,
-      "likes": 1310,
-      "isPremium": false,
-      "createdAt": "2026-04-21T14:15:00Z"
     },
     {
       "id": 646,
@@ -10436,22 +8709,6 @@
       "createdAt": "2026-04-22T10:28:00Z"
     },
     {
-      "id": 653,
-      "title": "Sample Video 653",
-      "description": "Demo M3U8 video item 653 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+653",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5071,
-      "likes": 1326,
-      "isPremium": false,
-      "createdAt": "2026-04-21T12:31:00Z"
-    },
-    {
       "id": 654,
       "title": "Sample Audio 654",
       "description": "Demo MP3 audio item 654 for React Native audio player practice",
@@ -10498,22 +8755,6 @@
       "likes": 666,
       "isPremium": false,
       "createdAt": "2026-04-22T09:44:00Z"
-    },
-    {
-      "id": 657,
-      "title": "Sample Video 657",
-      "description": "Demo MPD video item 657 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+657",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5099,
-      "likes": 1334,
-      "isPremium": false,
-      "createdAt": "2026-04-21T11:39:00Z"
     },
     {
       "id": 658,
@@ -10594,22 +8835,6 @@
       "likes": 672,
       "isPremium": false,
       "createdAt": "2026-04-22T08:38:00Z"
-    },
-    {
-      "id": 663,
-      "title": "Sample Video 663",
-      "description": "Demo M3U8 video item 663 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+663",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5141,
-      "likes": 1346,
-      "isPremium": false,
-      "createdAt": "2026-04-21T10:21:00Z"
     },
     {
       "id": 664,
@@ -10724,22 +8949,6 @@
       "createdAt": "2026-04-22T07:10:00Z"
     },
     {
-      "id": 671,
-      "title": "Sample Video 671",
-      "description": "Demo M3U8 video item 671 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+671",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5197,
-      "likes": 1362,
-      "isPremium": false,
-      "createdAt": "2026-04-21T08:37:00Z"
-    },
-    {
       "id": 672,
       "title": "Sample Audio 672",
       "description": "Demo MP3 audio item 672 for React Native audio player practice",
@@ -10786,22 +8995,6 @@
       "likes": 684,
       "isPremium": false,
       "createdAt": "2026-04-22T06:26:00Z"
-    },
-    {
-      "id": 675,
-      "title": "Sample Video 675",
-      "description": "Demo MPD video item 675 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+675",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5225,
-      "likes": 1370,
-      "isPremium": false,
-      "createdAt": "2026-04-21T07:45:00Z"
     },
     {
       "id": 676,
@@ -10882,22 +9075,6 @@
       "likes": 690,
       "isPremium": false,
       "createdAt": "2026-04-22T05:20:00Z"
-    },
-    {
-      "id": 681,
-      "title": "Sample Video 681",
-      "description": "Demo M3U8 video item 681 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+681",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5267,
-      "likes": 1382,
-      "isPremium": false,
-      "createdAt": "2026-04-21T06:27:00Z"
     },
     {
       "id": 682,
@@ -11012,22 +9189,6 @@
       "createdAt": "2026-04-22T03:52:00Z"
     },
     {
-      "id": 689,
-      "title": "Sample Video 689",
-      "description": "Demo M3U8 video item 689 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+689",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5323,
-      "likes": 1398,
-      "isPremium": false,
-      "createdAt": "2026-04-21T04:43:00Z"
-    },
-    {
       "id": 690,
       "title": "Sample Audio 690",
       "description": "Demo MP3 audio item 690 for React Native audio player practice",
@@ -11074,22 +9235,6 @@
       "likes": 702,
       "isPremium": false,
       "createdAt": "2026-04-22T03:08:00Z"
-    },
-    {
-      "id": 693,
-      "title": "Sample Video 693",
-      "description": "Demo MPD video item 693 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+693",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5351,
-      "likes": 1406,
-      "isPremium": false,
-      "createdAt": "2026-04-21T03:51:00Z"
     },
     {
       "id": 694,
@@ -11170,22 +9315,6 @@
       "likes": 708,
       "isPremium": false,
       "createdAt": "2026-04-22T02:02:00Z"
-    },
-    {
-      "id": 699,
-      "title": "Sample Video 699",
-      "description": "Demo M3U8 video item 699 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+699",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5393,
-      "likes": 1418,
-      "isPremium": false,
-      "createdAt": "2026-04-21T02:33:00Z"
     },
     {
       "id": 700,
@@ -11300,22 +9429,6 @@
       "createdAt": "2026-04-22T00:34:00Z"
     },
     {
-      "id": 707,
-      "title": "Sample Video 707",
-      "description": "Demo M3U8 video item 707 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+707",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5449,
-      "likes": 1434,
-      "isPremium": false,
-      "createdAt": "2026-04-21T00:49:00Z"
-    },
-    {
       "id": 708,
       "title": "Sample Audio 708",
       "description": "Demo MP3 audio item 708 for React Native audio player practice",
@@ -11362,22 +9475,6 @@
       "likes": 720,
       "isPremium": false,
       "createdAt": "2026-04-21T23:50:00Z"
-    },
-    {
-      "id": 711,
-      "title": "Sample Video 711",
-      "description": "Demo MPD video item 711 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+711",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5477,
-      "likes": 1442,
-      "isPremium": false,
-      "createdAt": "2026-04-20T23:57:00Z"
     },
     {
       "id": 712,
@@ -11458,22 +9555,6 @@
       "likes": 726,
       "isPremium": false,
       "createdAt": "2026-04-21T22:44:00Z"
-    },
-    {
-      "id": 717,
-      "title": "Sample Video 717",
-      "description": "Demo M3U8 video item 717 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+717",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5519,
-      "likes": 1454,
-      "isPremium": false,
-      "createdAt": "2026-04-20T22:39:00Z"
     },
     {
       "id": 718,
@@ -11588,22 +9669,6 @@
       "createdAt": "2026-04-21T21:16:00Z"
     },
     {
-      "id": 725,
-      "title": "Sample Video 725",
-      "description": "Demo M3U8 video item 725 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+725",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5575,
-      "likes": 1470,
-      "isPremium": false,
-      "createdAt": "2026-04-20T20:55:00Z"
-    },
-    {
       "id": 726,
       "title": "Sample Audio 726",
       "description": "Demo MP3 audio item 726 for React Native audio player practice",
@@ -11650,22 +9715,6 @@
       "likes": 738,
       "isPremium": false,
       "createdAt": "2026-04-21T20:32:00Z"
-    },
-    {
-      "id": 729,
-      "title": "Sample Video 729",
-      "description": "Demo MPD video item 729 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+729",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5603,
-      "likes": 1478,
-      "isPremium": false,
-      "createdAt": "2026-04-20T20:03:00Z"
     },
     {
       "id": 730,
@@ -11746,22 +9795,6 @@
       "likes": 744,
       "isPremium": false,
       "createdAt": "2026-04-21T19:26:00Z"
-    },
-    {
-      "id": 735,
-      "title": "Sample Video 735",
-      "description": "Demo M3U8 video item 735 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+735",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5645,
-      "likes": 1490,
-      "isPremium": false,
-      "createdAt": "2026-04-20T18:45:00Z"
     },
     {
       "id": 736,
@@ -11876,22 +9909,6 @@
       "createdAt": "2026-04-21T17:58:00Z"
     },
     {
-      "id": 743,
-      "title": "Sample Video 743",
-      "description": "Demo M3U8 video item 743 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+743",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5701,
-      "likes": 1506,
-      "isPremium": false,
-      "createdAt": "2026-04-20T17:01:00Z"
-    },
-    {
       "id": 744,
       "title": "Sample Audio 744",
       "description": "Demo MP3 audio item 744 for React Native audio player practice",
@@ -11938,22 +9955,6 @@
       "likes": 756,
       "isPremium": false,
       "createdAt": "2026-04-21T17:14:00Z"
-    },
-    {
-      "id": 747,
-      "title": "Sample Video 747",
-      "description": "Demo MPD video item 747 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+747",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5729,
-      "likes": 1514,
-      "isPremium": false,
-      "createdAt": "2026-04-20T16:09:00Z"
     },
     {
       "id": 748,
@@ -12034,22 +10035,6 @@
       "likes": 762,
       "isPremium": false,
       "createdAt": "2026-04-21T16:08:00Z"
-    },
-    {
-      "id": 753,
-      "title": "Sample Video 753",
-      "description": "Demo M3U8 video item 753 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+753",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5771,
-      "likes": 1526,
-      "isPremium": false,
-      "createdAt": "2026-04-20T14:51:00Z"
     },
     {
       "id": 754,
@@ -12164,22 +10149,6 @@
       "createdAt": "2026-04-21T14:40:00Z"
     },
     {
-      "id": 761,
-      "title": "Sample Video 761",
-      "description": "Demo M3U8 video item 761 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+761",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5827,
-      "likes": 1542,
-      "isPremium": false,
-      "createdAt": "2026-04-20T13:07:00Z"
-    },
-    {
       "id": 762,
       "title": "Sample Audio 762",
       "description": "Demo MP3 audio item 762 for React Native audio player practice",
@@ -12226,22 +10195,6 @@
       "likes": 774,
       "isPremium": false,
       "createdAt": "2026-04-21T13:56:00Z"
-    },
-    {
-      "id": 765,
-      "title": "Sample Video 765",
-      "description": "Demo MPD video item 765 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+765",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5855,
-      "likes": 1550,
-      "isPremium": false,
-      "createdAt": "2026-04-20T12:15:00Z"
     },
     {
       "id": 766,
@@ -12322,22 +10275,6 @@
       "likes": 780,
       "isPremium": false,
       "createdAt": "2026-04-21T12:50:00Z"
-    },
-    {
-      "id": 771,
-      "title": "Sample Video 771",
-      "description": "Demo M3U8 video item 771 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+771",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 5897,
-      "likes": 1562,
-      "isPremium": false,
-      "createdAt": "2026-04-20T10:57:00Z"
     },
     {
       "id": 772,
@@ -12452,22 +10389,6 @@
       "createdAt": "2026-04-21T11:22:00Z"
     },
     {
-      "id": 779,
-      "title": "Sample Video 779",
-      "description": "Demo M3U8 video item 779 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+779",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 5953,
-      "likes": 1578,
-      "isPremium": false,
-      "createdAt": "2026-04-20T09:13:00Z"
-    },
-    {
       "id": 780,
       "title": "Sample Audio 780",
       "description": "Demo MP3 audio item 780 for React Native audio player practice",
@@ -12514,22 +10435,6 @@
       "likes": 792,
       "isPremium": false,
       "createdAt": "2026-04-21T10:38:00Z"
-    },
-    {
-      "id": 783,
-      "title": "Sample Video 783",
-      "description": "Demo MPD video item 783 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+783",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 5981,
-      "likes": 1586,
-      "isPremium": false,
-      "createdAt": "2026-04-20T08:21:00Z"
     },
     {
       "id": 784,
@@ -12610,22 +10515,6 @@
       "likes": 798,
       "isPremium": false,
       "createdAt": "2026-04-21T09:32:00Z"
-    },
-    {
-      "id": 789,
-      "title": "Sample Video 789",
-      "description": "Demo M3U8 video item 789 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+789",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6023,
-      "likes": 1598,
-      "isPremium": false,
-      "createdAt": "2026-04-20T07:03:00Z"
     },
     {
       "id": 790,
@@ -12740,22 +10629,6 @@
       "createdAt": "2026-04-21T08:04:00Z"
     },
     {
-      "id": 797,
-      "title": "Sample Video 797",
-      "description": "Demo M3U8 video item 797 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+797",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6079,
-      "likes": 1614,
-      "isPremium": false,
-      "createdAt": "2026-04-20T05:19:00Z"
-    },
-    {
       "id": 798,
       "title": "Sample Audio 798",
       "description": "Demo MP3 audio item 798 for React Native audio player practice",
@@ -12802,22 +10675,6 @@
       "likes": 810,
       "isPremium": false,
       "createdAt": "2026-04-21T07:20:00Z"
-    },
-    {
-      "id": 801,
-      "title": "Sample Video 801",
-      "description": "Demo MPD video item 801 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+801",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6107,
-      "likes": 1622,
-      "isPremium": false,
-      "createdAt": "2026-04-20T04:27:00Z"
     },
     {
       "id": 802,
@@ -12898,22 +10755,6 @@
       "likes": 816,
       "isPremium": false,
       "createdAt": "2026-04-21T06:14:00Z"
-    },
-    {
-      "id": 807,
-      "title": "Sample Video 807",
-      "description": "Demo M3U8 video item 807 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+807",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6149,
-      "likes": 1634,
-      "isPremium": false,
-      "createdAt": "2026-04-20T03:09:00Z"
     },
     {
       "id": 808,
@@ -13028,22 +10869,6 @@
       "createdAt": "2026-04-21T04:46:00Z"
     },
     {
-      "id": 815,
-      "title": "Sample Video 815",
-      "description": "Demo M3U8 video item 815 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+815",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6205,
-      "likes": 1650,
-      "isPremium": false,
-      "createdAt": "2026-04-20T01:25:00Z"
-    },
-    {
       "id": 816,
       "title": "Sample Audio 816",
       "description": "Demo MP3 audio item 816 for React Native audio player practice",
@@ -13090,22 +10915,6 @@
       "likes": 828,
       "isPremium": false,
       "createdAt": "2026-04-21T04:02:00Z"
-    },
-    {
-      "id": 819,
-      "title": "Sample Video 819",
-      "description": "Demo MPD video item 819 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+819",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6233,
-      "likes": 1658,
-      "isPremium": false,
-      "createdAt": "2026-04-20T00:33:00Z"
     },
     {
       "id": 820,
@@ -13186,22 +10995,6 @@
       "likes": 834,
       "isPremium": false,
       "createdAt": "2026-04-21T02:56:00Z"
-    },
-    {
-      "id": 825,
-      "title": "Sample Video 825",
-      "description": "Demo M3U8 video item 825 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+825",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6275,
-      "likes": 1670,
-      "isPremium": false,
-      "createdAt": "2026-04-19T23:15:00Z"
     },
     {
       "id": 826,
@@ -13316,22 +11109,6 @@
       "createdAt": "2026-04-21T01:28:00Z"
     },
     {
-      "id": 833,
-      "title": "Sample Video 833",
-      "description": "Demo M3U8 video item 833 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+833",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6331,
-      "likes": 1686,
-      "isPremium": false,
-      "createdAt": "2026-04-19T21:31:00Z"
-    },
-    {
       "id": 834,
       "title": "Sample Audio 834",
       "description": "Demo MP3 audio item 834 for React Native audio player practice",
@@ -13378,22 +11155,6 @@
       "likes": 846,
       "isPremium": false,
       "createdAt": "2026-04-21T00:44:00Z"
-    },
-    {
-      "id": 837,
-      "title": "Sample Video 837",
-      "description": "Demo MPD video item 837 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+837",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6359,
-      "likes": 1694,
-      "isPremium": false,
-      "createdAt": "2026-04-19T20:39:00Z"
     },
     {
       "id": 838,
@@ -13474,22 +11235,6 @@
       "likes": 852,
       "isPremium": false,
       "createdAt": "2026-04-20T23:38:00Z"
-    },
-    {
-      "id": 843,
-      "title": "Sample Video 843",
-      "description": "Demo M3U8 video item 843 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+843",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6401,
-      "likes": 1706,
-      "isPremium": false,
-      "createdAt": "2026-04-19T19:21:00Z"
     },
     {
       "id": 844,
@@ -13604,22 +11349,6 @@
       "createdAt": "2026-04-20T22:10:00Z"
     },
     {
-      "id": 851,
-      "title": "Sample Video 851",
-      "description": "Demo M3U8 video item 851 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+851",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6457,
-      "likes": 1722,
-      "isPremium": false,
-      "createdAt": "2026-04-19T17:37:00Z"
-    },
-    {
       "id": 852,
       "title": "Sample Audio 852",
       "description": "Demo MP3 audio item 852 for React Native audio player practice",
@@ -13666,22 +11395,6 @@
       "likes": 864,
       "isPremium": false,
       "createdAt": "2026-04-20T21:26:00Z"
-    },
-    {
-      "id": 855,
-      "title": "Sample Video 855",
-      "description": "Demo MPD video item 855 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+855",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6485,
-      "likes": 1730,
-      "isPremium": false,
-      "createdAt": "2026-04-19T16:45:00Z"
     },
     {
       "id": 856,
@@ -13762,22 +11475,6 @@
       "likes": 870,
       "isPremium": false,
       "createdAt": "2026-04-20T20:20:00Z"
-    },
-    {
-      "id": 861,
-      "title": "Sample Video 861",
-      "description": "Demo M3U8 video item 861 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+861",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6527,
-      "likes": 1742,
-      "isPremium": false,
-      "createdAt": "2026-04-19T15:27:00Z"
     },
     {
       "id": 862,
@@ -13892,22 +11589,6 @@
       "createdAt": "2026-04-20T18:52:00Z"
     },
     {
-      "id": 869,
-      "title": "Sample Video 869",
-      "description": "Demo M3U8 video item 869 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+869",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6583,
-      "likes": 1758,
-      "isPremium": false,
-      "createdAt": "2026-04-19T13:43:00Z"
-    },
-    {
       "id": 870,
       "title": "Sample Audio 870",
       "description": "Demo MP3 audio item 870 for React Native audio player practice",
@@ -13954,22 +11635,6 @@
       "likes": 882,
       "isPremium": false,
       "createdAt": "2026-04-20T18:08:00Z"
-    },
-    {
-      "id": 873,
-      "title": "Sample Video 873",
-      "description": "Demo MPD video item 873 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+873",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6611,
-      "likes": 1766,
-      "isPremium": false,
-      "createdAt": "2026-04-19T12:51:00Z"
     },
     {
       "id": 874,
@@ -14050,22 +11715,6 @@
       "likes": 888,
       "isPremium": false,
       "createdAt": "2026-04-20T17:02:00Z"
-    },
-    {
-      "id": 879,
-      "title": "Sample Video 879",
-      "description": "Demo M3U8 video item 879 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+879",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6653,
-      "likes": 1778,
-      "isPremium": false,
-      "createdAt": "2026-04-19T11:33:00Z"
     },
     {
       "id": 880,
@@ -14180,22 +11829,6 @@
       "createdAt": "2026-04-20T15:34:00Z"
     },
     {
-      "id": 887,
-      "title": "Sample Video 887",
-      "description": "Demo M3U8 video item 887 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+887",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6709,
-      "likes": 1794,
-      "isPremium": false,
-      "createdAt": "2026-04-19T09:49:00Z"
-    },
-    {
       "id": 888,
       "title": "Sample Audio 888",
       "description": "Demo MP3 audio item 888 for React Native audio player practice",
@@ -14242,22 +11875,6 @@
       "likes": 900,
       "isPremium": false,
       "createdAt": "2026-04-20T14:50:00Z"
-    },
-    {
-      "id": 891,
-      "title": "Sample Video 891",
-      "description": "Demo MPD video item 891 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+891",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6737,
-      "likes": 1802,
-      "isPremium": false,
-      "createdAt": "2026-04-19T08:57:00Z"
     },
     {
       "id": 892,
@@ -14338,22 +11955,6 @@
       "likes": 906,
       "isPremium": false,
       "createdAt": "2026-04-20T13:44:00Z"
-    },
-    {
-      "id": 897,
-      "title": "Sample Video 897",
-      "description": "Demo M3U8 video item 897 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+897",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6779,
-      "likes": 1814,
-      "isPremium": false,
-      "createdAt": "2026-04-19T07:39:00Z"
     },
     {
       "id": 898,
@@ -14468,22 +12069,6 @@
       "createdAt": "2026-04-20T12:16:00Z"
     },
     {
-      "id": 905,
-      "title": "Sample Video 905",
-      "description": "Demo M3U8 video item 905 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+905",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6835,
-      "likes": 1830,
-      "isPremium": false,
-      "createdAt": "2026-04-19T05:55:00Z"
-    },
-    {
       "id": 906,
       "title": "Sample Audio 906",
       "description": "Demo MP3 audio item 906 for React Native audio player practice",
@@ -14530,22 +12115,6 @@
       "likes": 918,
       "isPremium": false,
       "createdAt": "2026-04-20T11:32:00Z"
-    },
-    {
-      "id": 909,
-      "title": "Sample Video 909",
-      "description": "Demo MPD video item 909 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+909",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6863,
-      "likes": 1838,
-      "isPremium": false,
-      "createdAt": "2026-04-19T05:03:00Z"
     },
     {
       "id": 910,
@@ -14626,22 +12195,6 @@
       "likes": 924,
       "isPremium": false,
       "createdAt": "2026-04-20T10:26:00Z"
-    },
-    {
-      "id": 915,
-      "title": "Sample Video 915",
-      "description": "Demo M3U8 video item 915 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+915",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 6905,
-      "likes": 1850,
-      "isPremium": false,
-      "createdAt": "2026-04-19T03:45:00Z"
     },
     {
       "id": 916,
@@ -14756,22 +12309,6 @@
       "createdAt": "2026-04-20T08:58:00Z"
     },
     {
-      "id": 923,
-      "title": "Sample Video 923",
-      "description": "Demo M3U8 video item 923 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+923",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 6961,
-      "likes": 1866,
-      "isPremium": false,
-      "createdAt": "2026-04-19T02:01:00Z"
-    },
-    {
       "id": 924,
       "title": "Sample Audio 924",
       "description": "Demo MP3 audio item 924 for React Native audio player practice",
@@ -14818,22 +12355,6 @@
       "likes": 936,
       "isPremium": false,
       "createdAt": "2026-04-20T08:14:00Z"
-    },
-    {
-      "id": 927,
-      "title": "Sample Video 927",
-      "description": "Demo MPD video item 927 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+927",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 6989,
-      "likes": 1874,
-      "isPremium": false,
-      "createdAt": "2026-04-19T01:09:00Z"
     },
     {
       "id": 928,
@@ -14914,22 +12435,6 @@
       "likes": 942,
       "isPremium": false,
       "createdAt": "2026-04-20T07:08:00Z"
-    },
-    {
-      "id": 933,
-      "title": "Sample Video 933",
-      "description": "Demo M3U8 video item 933 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+933",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 7031,
-      "likes": 1886,
-      "isPremium": false,
-      "createdAt": "2026-04-18T23:51:00Z"
     },
     {
       "id": 934,
@@ -15044,22 +12549,6 @@
       "createdAt": "2026-04-20T05:40:00Z"
     },
     {
-      "id": 941,
-      "title": "Sample Video 941",
-      "description": "Demo M3U8 video item 941 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+941",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 7087,
-      "likes": 1902,
-      "isPremium": false,
-      "createdAt": "2026-04-18T22:07:00Z"
-    },
-    {
       "id": 942,
       "title": "Sample Audio 942",
       "description": "Demo MP3 audio item 942 for React Native audio player practice",
@@ -15106,22 +12595,6 @@
       "likes": 954,
       "isPremium": false,
       "createdAt": "2026-04-20T04:56:00Z"
-    },
-    {
-      "id": 945,
-      "title": "Sample Video 945",
-      "description": "Demo MPD video item 945 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+945",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 7115,
-      "likes": 1910,
-      "isPremium": false,
-      "createdAt": "2026-04-18T21:15:00Z"
     },
     {
       "id": 946,
@@ -15202,22 +12675,6 @@
       "likes": 960,
       "isPremium": false,
       "createdAt": "2026-04-20T03:50:00Z"
-    },
-    {
-      "id": 951,
-      "title": "Sample Video 951",
-      "description": "Demo M3U8 video item 951 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:15",
-      "thumbnailUrl": "https://dummyimage.com/600x400/222/fff&text=Video+951",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 7157,
-      "likes": 1922,
-      "isPremium": false,
-      "createdAt": "2026-04-18T19:57:00Z"
     },
     {
       "id": 952,
@@ -15332,22 +12789,6 @@
       "createdAt": "2026-04-20T02:22:00Z"
     },
     {
-      "id": 959,
-      "title": "Sample Video 959",
-      "description": "Demo M3U8 video item 959 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/518/fff&text=Video+959",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 7213,
-      "likes": 1938,
-      "isPremium": false,
-      "createdAt": "2026-04-18T18:13:00Z"
-    },
-    {
       "id": 960,
       "title": "Sample Audio 960",
       "description": "Demo MP3 audio item 960 for React Native audio player practice",
@@ -15394,22 +12835,6 @@
       "likes": 972,
       "isPremium": false,
       "createdAt": "2026-04-20T01:38:00Z"
-    },
-    {
-      "id": 963,
-      "title": "Sample Video 963",
-      "description": "Demo MPD video item 963 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/666/fff&text=Video+963",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 7241,
-      "likes": 1946,
-      "isPremium": false,
-      "createdAt": "2026-04-18T17:21:00Z"
     },
     {
       "id": 964,
@@ -15490,22 +12915,6 @@
       "likes": 978,
       "isPremium": false,
       "createdAt": "2026-04-20T00:32:00Z"
-    },
-    {
-      "id": 969,
-      "title": "Sample Video 969",
-      "description": "Demo M3U8 video item 969 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/888/fff&text=Video+969",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 7283,
-      "likes": 1958,
-      "isPremium": false,
-      "createdAt": "2026-04-18T16:03:00Z"
     },
     {
       "id": 970,
@@ -15620,22 +13029,6 @@
       "createdAt": "2026-04-19T23:04:00Z"
     },
     {
-      "id": 977,
-      "title": "Sample Video 977",
-      "description": "Demo M3U8 video item 977 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/185/fff&text=Video+977",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 7339,
-      "likes": 1974,
-      "isPremium": false,
-      "createdAt": "2026-04-18T14:19:00Z"
-    },
-    {
       "id": 978,
       "title": "Sample Audio 978",
       "description": "Demo MP3 audio item 978 for React Native audio player practice",
@@ -15682,22 +13075,6 @@
       "likes": 990,
       "isPremium": false,
       "createdAt": "2026-04-19T22:20:00Z"
-    },
-    {
-      "id": 981,
-      "title": "Sample Video 981",
-      "description": "Demo MPD video item 981 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/333/fff&text=Video+981",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 7367,
-      "likes": 1982,
-      "isPremium": false,
-      "createdAt": "2026-04-18T13:27:00Z"
     },
     {
       "id": 982,
@@ -15778,22 +13155,6 @@
       "likes": 996,
       "isPremium": false,
       "createdAt": "2026-04-19T21:14:00Z"
-    },
-    {
-      "id": 987,
-      "title": "Sample Video 987",
-      "description": "Demo M3U8 video item 987 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Streaming",
-      "duration": "00:10",
-      "thumbnailUrl": "https://dummyimage.com/600x400/555/fff&text=Video+987",
-      "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-      "artist": null,
-      "views": 7409,
-      "likes": 1994,
-      "isPremium": false,
-      "createdAt": "2026-04-18T12:09:00Z"
     },
     {
       "id": 988,
@@ -15908,22 +13269,6 @@
       "createdAt": "2026-04-19T19:46:00Z"
     },
     {
-      "id": 995,
-      "title": "Sample Video 995",
-      "description": "Demo M3U8 video item 995 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "m3u8",
-      "category": "Entertainment",
-      "duration": "Live/Unknown",
-      "thumbnailUrl": "https://dummyimage.com/600x400/851/fff&text=Video+995",
-      "mediaUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "artist": null,
-      "views": 7465,
-      "likes": 2010,
-      "isPremium": false,
-      "createdAt": "2026-04-18T10:25:00Z"
-    },
-    {
       "id": 996,
       "title": "Sample Audio 996",
       "description": "Demo MP3 audio item 996 for React Native audio player practice",
@@ -15970,22 +13315,6 @@
       "likes": 1008,
       "isPremium": false,
       "createdAt": "2026-04-19T19:02:00Z"
-    },
-    {
-      "id": 999,
-      "title": "Sample Video 999",
-      "description": "Demo MPD video item 999 for React Native / ExoPlayer / Media3 practice",
-      "mediaType": "video",
-      "format": "mpd",
-      "category": "Streaming",
-      "duration": "00:05",
-      "thumbnailUrl": "https://dummyimage.com/600x400/000/fff&text=Video+999",
-      "mediaUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-      "artist": null,
-      "views": 7493,
-      "likes": 2018,
-      "isPremium": false,
-      "createdAt": "2026-04-18T09:33:00Z"
     },
     {
       "id": 1000,
