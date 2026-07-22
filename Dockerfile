@@ -1,10 +1,18 @@
-FROM gradle:8.10.2-jdk17 AS build
-WORKDIR /app
-COPY . .
-RUN gradle installDist --no-daemon
+FROM python:3.11-slim
 
-FROM eclipse-temurin:17-jre
 WORKDIR /app
-COPY --from=build /app/build/install/media-api-kotlin ./
-EXPOSE 8080
-CMD ["./bin/media-api-kotlin"]
+
+# Install system dependencies if needed
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY fastapi_app/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY fastapi_app/ .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

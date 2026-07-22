@@ -1,7 +1,11 @@
 services:
   - type: web
-    name: media-api-kotlin
-    runtime: docker
-    plan: free
-    autoDeploy: true
-    healthCheckPath: /api/health
+    name: media-api-fastapi
+    env: python
+    buildCommand: "pip install -r fastapi_app/requirements.txt"
+    startCommand: "cd fastapi_app && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET_KEY
+        generateValue: true
