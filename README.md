@@ -5,13 +5,23 @@ An enterprise-grade **Python FastAPI Backend** service converted from Kotlin/Kto
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB.svg?style=flat&logo=python)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-336791.svg?style=flat&logo=postgresql)](https://supabase.com)
+[![Railway](https://img.shields.io/badge/Deployment-Railway%20Live-000000.svg?style=flat&logo=railway)](https://fastapi-media-service-production.up.railway.app)
 [![JWT](https://img.shields.io/badge/Security-Strict%20JWT%20Tokens-000000.svg?style=flat&logo=jsonwebtokens)](https://jwt.io)
+
+---
+
+## 🌐 Live Production Deployment (Railway)
+
+- **Live Base URL:** [https://fastapi-media-service-production.up.railway.app](https://fastapi-media-service-production.up.railway.app)
+- **Interactive Web Demo UI:** [https://fastapi-media-service-production.up.railway.app/demo](https://fastapi-media-service-production.up.railway.app/demo)
+- **Interactive Swagger Documentation:** [https://fastapi-media-service-production.up.railway.app/docs](https://fastapi-media-service-production.up.railway.app/docs)
+- **Health Check Endpoint:** [https://fastapi-media-service-production.up.railway.app/api/health](https://fastapi-media-service-production.up.railway.app/api/health)
 
 ---
 
 ## 🖼 Sample UI & Test Suite Preview
 
-Below is a live screenshot sample of the interactive web testing client running at `http://localhost:8000/demo`:
+Below is a live screenshot sample of the interactive web testing client running live:
 
 ![Sample Interactive UI Preview Screenshot](https://raw.githubusercontent.com/SHAW258/fastapi-media-service/main/docs/images/interactive_demo_ui.png)
 
@@ -172,7 +182,7 @@ See [ENDPOINTS.md](ENDPOINTS.md) for full request/response schemas.
 ```javascript
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://fastapi-media-service-production.up.railway.app';
 
 // 1. Authenticate & Obtain JWT Token
 export async function loginUser(username, password) {
@@ -197,13 +207,3 @@ export async function getMediaItems() {
   return response.data;
 }
 ```
-
----
-
-## 🚀 Cloud Deployment
-
-### Deploy on Render.com
-1. Connect your GitHub repository `SHAW258/fastapi-media-service`.
-2. Select **Web Service** (using the included `render.yaml`).
-3. Set the environment variable `DATABASE_URL` to your Supabase connection string.
-4. Deploy!
