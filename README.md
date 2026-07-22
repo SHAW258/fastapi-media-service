@@ -9,11 +9,13 @@ An enterprise-grade **Python FastAPI Backend** service converted from Kotlin/Kto
 
 ---
 
-## 🖥 Interactive Web Test Suite & UI Preview
+## 🖼 Sample UI & Test Suite Preview
 
-When running locally (`http://localhost:8000/demo`), any user can interactively test user registration, JWT login, and strict security directly from their browser:
+Below is a live screenshot sample of the interactive web testing client running at `http://localhost:8000/demo`:
 
-![FastAPI Interactive Demo UI & Test Suite](docs/images/interactive_demo_ui.png)
+![Sample Interactive UI Preview Screenshot](https://raw.githubusercontent.com/SHAW258/fastapi-media-service/main/docs/images/interactive_demo_ui.png)
+
+*The interactive interface allows testing User Registration, JWT Bearer Token Login, and Strict Security Verification directly from your browser.*
 
 ---
 
@@ -39,7 +41,7 @@ fastapi-media-service/
 ├── ENDPOINTS.md                # Comprehensive route specifications & payloads
 ├── docs/
 │   └── images/
-│       └── interactive_demo_ui.png  # Interactive UI Preview Screenshot
+│       └── interactive_demo_ui.png  # Interactive UI Preview Screenshot Sample
 └── fastapi_app/
     ├── .env                    # Active environment variables (Supabase URL & JWT Secret)
     ├── .env.example            # Environment template file
