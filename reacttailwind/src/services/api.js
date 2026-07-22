@@ -1,4 +1,4 @@
-const DEFAULT_BASE_URL = "https://fastapi-media-service-production.up.railway.app";
+const DEFAULT_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://fastapi-media-service-production.up.railway.app";
 
 export function getBaseUrl() {
   return localStorage.getItem("api_base_url") || DEFAULT_BASE_URL;
