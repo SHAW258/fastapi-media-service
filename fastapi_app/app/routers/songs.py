@@ -3,13 +3,16 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import func
 from sqlalchemy.orm import Session
 from app.database import get_db
-from app import models, schemas
+from app import models, schemas, auth
 
 router = APIRouter(tags=["Songs & Artists"])
 
 @router.get("/song", response_model=schemas.MediaListResponse)
-def get_all_songs(db: Session = Depends(get_db)):
-    """Fetch all audio songs from database."""
+def get_all_songs(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch all audio songs from database (Requires JWT Authentication)."""
     songs = (
         db.query(models.MediaItem)
         .filter(func.lower(models.MediaItem.media_type) == "audio")
@@ -40,8 +43,11 @@ def _get_artists_list(db: Session) -> List[schemas.ArtistSummary]:
 
 @router.get("/song/artists", response_model=schemas.ArtistsResponse)
 @router.get("/song/artistg", response_model=schemas.ArtistsResponse)
-def get_all_artists(db: Session = Depends(get_db)):
-    """Fetch all audio artists and their total song counts."""
+def get_all_artists(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch all audio artists and their total song counts (Requires JWT Authentication)."""
     artists = _get_artists_list(db)
     return {
         "success": True,
@@ -51,8 +57,12 @@ def get_all_artists(db: Session = Depends(get_db)):
     }
 
 @router.get("/song/{id}", response_model=schemas.MediaItemSchema)
-def get_song_by_id(id: int, db: Session = Depends(get_db)):
-    """Fetch single song by ID."""
+def get_song_by_id(
+    id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch single song by ID (Requires JWT Authentication)."""
     song = (
         db.query(models.MediaItem)
         .filter(models.MediaItem.id == id)
@@ -64,8 +74,12 @@ def get_song_by_id(id: int, db: Session = Depends(get_db)):
     return song
 
 @router.get("/artist/{id}", response_model=schemas.ArtistDetailResponse)
-def get_artist_by_id(id: int, db: Session = Depends(get_db)):
-    """Fetch artist details and songs by artist ID."""
+def get_artist_by_id(
+    id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch artist details and songs by artist ID (Requires JWT Authentication)."""
     artists = _get_artists_list(db)
     target_artist = next((a for a in artists if a.id == id), None)
     if not target_artist:

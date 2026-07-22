@@ -9,8 +9,11 @@ from app import models, schemas, auth
 router = APIRouter(prefix="/api", tags=["Media"])
 
 @router.get("/media", response_model=schemas.MediaListResponse)
-def get_all_media(db: Session = Depends(get_db)):
-    """Fetch all 1,000 media items from Supabase/PostgreSQL database."""
+def get_all_media(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch all 833 media items from Supabase database (Requires JWT Authentication)."""
     items = db.query(models.MediaItem).all()
     return {
         "success": True,
@@ -20,8 +23,12 @@ def get_all_media(db: Session = Depends(get_db)):
     }
 
 @router.get("/media/{id}", response_model=schemas.MediaItemSchema)
-def get_media_by_id(id: int, db: Session = Depends(get_db)):
-    """Get single media item by ID."""
+def get_media_by_id(
+    id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Get single media item by ID (Requires JWT Authentication)."""
     item = db.query(models.MediaItem).filter(models.MediaItem.id == id).first()
     if not item:
         raise HTTPException(status_code=404, detail="Media item not found")
@@ -33,7 +40,7 @@ def create_media_item(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(auth.get_current_user)
 ):
-    """Create a new media item (requires JWT authentication)."""
+    """Create a new media item (Requires JWT Authentication)."""
     db_item = models.MediaItem(
         title=media_in.title,
         description=media_in.description,
@@ -55,14 +62,20 @@ def create_media_item(
     return db_item
 
 @router.post("/media/echo")
-async def echo_media(request: Request):
-    """Echo JSON body back to caller."""
+async def echo_media(
+    request: Request,
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Echo JSON body back to caller (Requires JWT Authentication)."""
     body = await request.json()
     return body
 
 @router.get("/categories", response_model=schemas.CategoriesResponse)
-def get_all_categories(db: Session = Depends(get_db)):
-    """Fetch all categories and total item count per category."""
+def get_all_categories(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch all categories and total item count per category (Requires JWT Authentication)."""
     results = (
         db.query(models.MediaItem.category, func.count(models.MediaItem.id).label("total"))
         .group_by(models.MediaItem.category)
@@ -80,8 +93,12 @@ def get_all_categories(db: Session = Depends(get_db)):
     }
 
 @router.get("/categories/{category}", response_model=schemas.CategoryMediaResponse)
-def get_media_by_category(category: str, db: Session = Depends(get_db)):
-    """Fetch all media items under a specific category."""
+def get_media_by_category(
+    category: str,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch all media items under a specific category (Requires JWT Authentication)."""
     decoded_category = unquote(category).strip()
     items = (
         db.query(models.MediaItem)

@@ -2,13 +2,16 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import func
 from sqlalchemy.orm import Session
 from app.database import get_db
-from app import models, schemas
+from app import models, schemas, auth
 
 router = APIRouter(tags=["Videos"])
 
 @router.get("/videos", response_model=schemas.MediaListResponse)
-def get_all_videos(db: Session = Depends(get_db)):
-    """Fetch all video media items from database."""
+def get_all_videos(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch all video media items from database (Requires JWT Authentication)."""
     videos = (
         db.query(models.MediaItem)
         .filter(func.lower(models.MediaItem.media_type) == "video")
@@ -22,8 +25,12 @@ def get_all_videos(db: Session = Depends(get_db)):
     }
 
 @router.get("/video/{id}", response_model=schemas.MediaItemSchema)
-def get_video_by_id(id: int, db: Session = Depends(get_db)):
-    """Fetch single video by ID."""
+def get_video_by_id(
+    id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user)
+):
+    """Fetch single video by ID (Requires JWT Authentication)."""
     video = (
         db.query(models.MediaItem)
         .filter(models.MediaItem.id == id)

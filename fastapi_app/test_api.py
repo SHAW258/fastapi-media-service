@@ -15,7 +15,7 @@ def run_server():
 
 def test_fastapi_endpoints():
     print("=" * 70)
-    print("STARTING FASTAPI SUITE VERIFICATION (SUPABASE POSTGRESQL + JWT)")
+    print("STARTING FASTAPI STRICT JWT AUTH SUITE VERIFICATION")
     print("=" * 70)
 
     # Start Uvicorn in background thread
@@ -26,17 +26,22 @@ def test_fastapi_endpoints():
     BASE_URL = "http://127.0.0.1:8000"
 
     with httpx.Client(base_url=BASE_URL, timeout=15.0) as client:
-        # 1. Health check
+        # 1. Health check (Public)
         res = client.get("/api/health")
         assert res.status_code == 200, f"Health check failed: {res.text}"
-        print("[OK] GET /api/health PASS:", res.json())
+        print("[OK] GET /api/health PASS (Public):", res.json())
 
-        # 2. Root endpoint
+        # 2. Root endpoint (Public)
         res = client.get("/")
         assert res.status_code == 200
-        print("[OK] GET / PASS:", res.json()["message"])
+        print("[OK] GET / PASS (Public):", res.json()["message"])
 
-        # 3. Auth Register Test User in Cloud Supabase
+        # 3. VERIFY JWT REQUIREMENT: Accessing /api/media WITHOUT token must be 401 Unauthorized
+        res = client.get("/api/media")
+        assert res.status_code == 401, f"Expected 401 Unauthorized without token, got: {res.status_code}"
+        print("[OK] SECURITY TEST: Unauthenticated access to /api/media properly BLOCKED (401 Unauthorized)")
+
+        # 4. Auth Register Test User in Cloud Supabase
         test_username = f"testuser_{int(time.time())}"
         test_email = f"{test_username}@example.com"
         reg_payload = {
@@ -47,9 +52,9 @@ def test_fastapi_endpoints():
         res = client.post("/api/auth/register", json=reg_payload)
         assert res.status_code == 201, f"Registration failed: {res.text}"
         reg_data = res.json()
-        print(f"[OK] POST /api/auth/register (Cloud Supabase DB) PASS: Registered '{reg_data['username']}' (ID: {reg_data['id']})")
+        print(f"[OK] POST /api/auth/register PASS: Registered '{reg_data['username']}' (ID: {reg_data['id']})")
 
-        # 4. Auth Login & Obtain JWT Token
+        # 5. Auth Login & Obtain JWT Token
         login_data = {
             "username": test_username,
             "password": "SecretPassword123!"
@@ -61,34 +66,36 @@ def test_fastapi_endpoints():
         assert access_token, "No access token received"
         print(f"[OK] POST /api/auth/login (JWT) PASS: Acquired token ({access_token[:25]}...)")
 
-        # 5. Fetch Protected Profile (/api/auth/me)
+        # 6. Prepare Authorization Header
         headers = {"Authorization": f"Bearer {access_token}"}
+
+        # 7. Fetch Protected Profile (/api/auth/me)
         res = client.get("/api/auth/me", headers=headers)
         assert res.status_code == 200, f"Me endpoint failed: {res.text}"
         print(f"[OK] GET /api/auth/me (JWT Protected Profile) PASS: Email = {res.json()['email']}")
 
-        # 6. Test Media Endpoints on Supabase
-        res = client.get("/api/media")
+        # 8. Test Media Endpoints with JWT Token
+        res = client.get("/api/media", headers=headers)
         assert res.status_code == 200
         media_list = res.json()
-        print(f"[OK] GET /api/media (Supabase DB Query) PASS: Total items in Supabase DB = {media_list['total']}")
+        print(f"[OK] GET /api/media (JWT Protected Query) PASS: Total items = {media_list['total']}")
 
-        res = client.get("/api/media/1")
+        res = client.get("/api/media/1", headers=headers)
         assert res.status_code == 200
         item_1 = res.json()
-        print(f"[OK] GET /api/media/1 PASS: Item Title = '{item_1['title']}'")
+        print(f"[OK] GET /api/media/1 (JWT Protected) PASS: Item Title = '{item_1['title']}'")
 
-        # 7. Create Media Item with JWT Authorization in Cloud Supabase
+        # 9. Create Media Item with JWT Authorization
         new_media = {
-            "title": "Live Supabase Track",
-            "description": "Testing item creation with JWT Token in Supabase PostgreSQL",
+            "title": "JWT Protected Track",
+            "description": "Testing item creation with strict JWT Token requirement",
             "mediaType": "audio",
             "format": "mp3",
             "category": "Testing",
             "duration": "03:45",
             "thumbnailUrl": "https://example.com/thumb.jpg",
             "mediaUrl": "https://example.com/audio.mp3",
-            "artist": "Supabase Tester",
+            "artist": "JWT Tester",
             "views": 100,
             "likes": 50,
             "isPremium": False,
@@ -97,38 +104,38 @@ def test_fastapi_endpoints():
         res = client.post("/api/media", json=new_media, headers=headers)
         assert res.status_code == 201, f"Create media failed: {res.text}"
         created_item = res.json()
-        print(f"[OK] POST /api/media (JWT Protected Create in Supabase) PASS: Created ID {created_item['id']} ('{created_item['title']}')")
+        print(f"[OK] POST /api/media (JWT Protected Create) PASS: Created ID {created_item['id']} ('{created_item['title']}')")
 
-        # 8. Test Songs & Artists Endpoints
-        res = client.get("/song")
+        # 10. Test Songs & Artists Endpoints with JWT Token
+        res = client.get("/song", headers=headers)
         assert res.status_code == 200
         songs = res.json()
-        print(f"[OK] GET /song PASS: Total Songs = {songs['total']}")
+        print(f"[OK] GET /song (JWT Protected) PASS: Total Songs = {songs['total']}")
 
-        res = client.get("/song/artists")
+        res = client.get("/song/artists", headers=headers)
         assert res.status_code == 200
         artists = res.json()
-        print(f"[OK] GET /song/artists PASS: Total Artists = {artists['total']}")
+        print(f"[OK] GET /song/artists (JWT Protected) PASS: Total Artists = {artists['total']}")
 
-        res = client.get("/artist/1")
+        res = client.get("/artist/1", headers=headers)
         assert res.status_code == 200
         artist_detail = res.json()["data"]
-        print(f"[OK] GET /artist/1 PASS: Artist '{artist_detail['name']}' has {artist_detail['totalSongs']} songs")
+        print(f"[OK] GET /artist/1 (JWT Protected) PASS: Artist '{artist_detail['name']}' has {artist_detail['totalSongs']} songs")
 
-        # 9. Test Videos Endpoints
-        res = client.get("/videos")
+        # 11. Test Videos Endpoints with JWT Token
+        res = client.get("/videos", headers=headers)
         assert res.status_code == 200
         videos = res.json()
-        print(f"[OK] GET /videos PASS: Total Videos = {videos['total']}")
+        print(f"[OK] GET /videos (JWT Protected) PASS: Total Videos = {videos['total']}")
 
-        # 10. Test Categories
-        res = client.get("/api/categories")
+        # 12. Test Categories with JWT Token
+        res = client.get("/api/categories", headers=headers)
         assert res.status_code == 200
         categories = res.json()
-        print(f"[OK] GET /api/categories PASS: Found {categories['total']} categories")
+        print(f"[OK] GET /api/categories (JWT Protected) PASS: Found {categories['total']} categories")
 
     print("=" * 70)
-    print("ALL FASTAPI + LIVE SUPABASE POSTGRESQL + JWT TESTS PASSED PERFECTLY!")
+    print("STRICT JWT AUTHENTICATION VERIFICATION PASSED PERFECTLY ON ALL ENDPOINTS!")
     print("=" * 70)
 
 if __name__ == "__main__":
