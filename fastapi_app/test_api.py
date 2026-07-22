@@ -15,7 +15,7 @@ def run_server():
 
 def test_fastapi_endpoints():
     print("=" * 70)
-    print("STARTING FASTAPI STRICT JWT AUTH SUITE VERIFICATION")
+    print("STARTING FASTAPI INTERACTIVE TEST & STRICT JWT VERIFICATION")
     print("=" * 70)
 
     # Start Uvicorn in background thread
@@ -31,10 +31,11 @@ def test_fastapi_endpoints():
         assert res.status_code == 200, f"Health check failed: {res.text}"
         print("[OK] GET /api/health PASS (Public):", res.json())
 
-        # 2. Root endpoint (Public)
-        res = client.get("/")
-        assert res.status_code == 200
-        print("[OK] GET / PASS (Public):", res.json()["message"])
+        # 2. Interactive Test Demo Page (Public)
+        res = client.get("/demo")
+        assert res.status_code == 200, f"Interactive demo page failed: {res.status_code}"
+        assert "<title>FastAPI Media Service - Interactive API Tester</title>" in res.text
+        print("[OK] GET /demo PASS (Interactive Web Tester UI loaded!)")
 
         # 3. VERIFY JWT REQUIREMENT: Accessing /api/media WITHOUT token must be 401 Unauthorized
         res = client.get("/api/media")
@@ -87,15 +88,15 @@ def test_fastapi_endpoints():
 
         # 9. Create Media Item with JWT Authorization
         new_media = {
-            "title": "JWT Protected Track",
-            "description": "Testing item creation with strict JWT Token requirement",
+            "title": "Interactive Demo Track",
+            "description": "Testing item creation via interactive test client",
             "mediaType": "audio",
             "format": "mp3",
             "category": "Testing",
             "duration": "03:45",
             "thumbnailUrl": "https://example.com/thumb.jpg",
             "mediaUrl": "https://example.com/audio.mp3",
-            "artist": "JWT Tester",
+            "artist": "Demo Tester",
             "views": 100,
             "likes": 50,
             "isPremium": False,
@@ -135,7 +136,7 @@ def test_fastapi_endpoints():
         print(f"[OK] GET /api/categories (JWT Protected) PASS: Found {categories['total']} categories")
 
     print("=" * 70)
-    print("STRICT JWT AUTHENTICATION VERIFICATION PASSED PERFECTLY ON ALL ENDPOINTS!")
+    print("ALL INTERACTIVE DEMO & STRICT JWT TESTS PASSED PERFECTLY!")
     print("=" * 70)
 
 if __name__ == "__main__":
