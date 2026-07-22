@@ -9,6 +9,14 @@ An enterprise-grade **Python FastAPI Backend** service converted from Kotlin/Kto
 
 ---
 
+## 🖥 Interactive Web Test Suite & UI Preview
+
+When running locally (`http://localhost:8000/demo`), any user can interactively test user registration, JWT login, and strict security directly from their browser:
+
+![FastAPI Interactive Demo UI & Test Suite](docs/images/interactive_demo_ui.png)
+
+---
+
 ## 📌 Project Overview
 
 This repository houses the production-ready backend API service for media streaming, user management, and video/audio playback. It features strict security, performance optimization, and cloud connectivity:
@@ -29,6 +37,9 @@ fastapi-media-service/
 ├── render.yaml                 # Render.com Cloud Deployment blueprint
 ├── README.md                   # Step-by-step documentation (this file)
 ├── ENDPOINTS.md                # Comprehensive route specifications & payloads
+├── docs/
+│   └── images/
+│       └── interactive_demo_ui.png  # Interactive UI Preview Screenshot
 └── fastapi_app/
     ├── .env                    # Active environment variables (Supabase URL & JWT Secret)
     ├── .env.example            # Environment template file
@@ -36,6 +47,7 @@ fastapi-media-service/
     ├── media-1000.json         # 833 media items dataset
     ├── seed_supabase.py        # Database migration & 833 items seeder script
     ├── fetch_supabase.py       # Live Supabase query verification tool
+    ├── run_and_capture.py      # Localhost server runner & screenshot generator
     ├── test_api.py             # Automated end-to-end endpoint & strict JWT test suite
     └── app/
         ├── main.py             # FastAPI Application instance & router registration
@@ -46,6 +58,8 @@ fastapi-media-service/
         ├── auth.py             # JWT token handling & password hashing
         ├── seed.py             # Automatic startup seed logic
         ├── middleware.py       # Frontend CORS, preflight, latency & security middleware
+        ├── static/
+        │   └── index.html      # Interactive Web Test Client UI (/demo)
         └── routers/
             ├── auth.py         # Auth routes (/api/auth/register, /api/auth/login, /api/auth/me)
             ├── media.py        # Media routes (/api/media, /api/categories) [JWT Protected]
@@ -112,40 +126,17 @@ python -m uvicorn app.main:app --reload --port 8000
 ```
 
 - **Base URL:** `http://localhost:8000`
+- **Interactive Web Tester UI:** [http://localhost:8000/demo](http://localhost:8000/demo)
 - **Interactive Swagger Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
 - **Health Check:** [http://localhost:8000/api/health](http://localhost:8000/api/health)
 
 ---
 
-### Step 6: Run Automated End-to-End Test Suite
+### Step 6: Run Automated End-to-End Test Suite & Capture Evidence
 Run the test runner to verify strict JWT authentication enforcement:
 
 ```bash
 python test_api.py
-```
-
-**Verification Output:**
-```text
-======================================================================
-STARTING FASTAPI STRICT JWT AUTH SUITE VERIFICATION
-======================================================================
-[OK] GET /api/health PASS (Public): {'status': 'ok', 'success': True}
-[OK] GET / PASS (Public): Media API Python FastAPI Conversion is running
-[OK] SECURITY TEST: Unauthenticated access to /api/media properly BLOCKED (401 Unauthorized)
-[OK] POST /api/auth/register PASS: Registered test user
-[OK] POST /api/auth/login (JWT) PASS: Acquired token
-[OK] GET /api/auth/me (JWT Protected Profile) PASS
-[OK] GET /api/media (JWT Protected Query) PASS: Total items = 835
-[OK] GET /api/media/1 (JWT Protected) PASS: Item Title = 'Sample Video 1'
-[OK] POST /api/media (JWT Protected Create) PASS: Created ID 1003
-[OK] GET /song (JWT Protected) PASS: Total Songs = 503
-[OK] GET /song/artists (JWT Protected) PASS: Total Artists = 6
-[OK] GET /artist/1 (JWT Protected) PASS: Artist detail fetched
-[OK] GET /videos (JWT Protected) PASS: Total Videos = 333
-[OK] GET /api/categories (JWT Protected) PASS: Found 8 categories
-======================================================================
-STRICT JWT AUTHENTICATION VERIFICATION PASSED PERFECTLY ON ALL ENDPOINTS!
-======================================================================
 ```
 
 ---
