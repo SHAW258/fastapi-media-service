@@ -2,26 +2,28 @@
 
 An enterprise-grade **Python FastAPI Backend** service & **React + Tailwind CSS Frontend App** converted from Kotlin/Ktor with **Cloud Supabase PostgreSQL** database integration, **Strict JWT Authentication & Security on ALL endpoints**, **Responsive Navigation & Menu Bars**, and **Dark & Light Mode Support**.
 
+[![Vercel](https://img.shields.io/badge/Frontend-Vercel%20Live-000000.svg?style=flat&logo=vercel)](https://reacttailwind-nine.vercel.app)
+[![Railway](https://img.shields.io/badge/Backend-Railway%20Live-000000.svg?style=flat&logo=railway)](https://fastapi-media-service-production.up.railway.app)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
-[![React](https://img.shields.io/badge/Frontend-React%2019-61DAFB.svg?style=flat&logo=react)](https://react.dev)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?style=flat&logo=react)](https://react.dev)
 [![PostgreSQL](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-336791.svg?style=flat&logo=postgresql)](https://supabase.com)
-[![Railway](https://img.shields.io/badge/Deployment-Railway%20Live-000000.svg?style=flat&logo=railway)](https://fastapi-media-service-production.up.railway.app)
 [![JWT](https://img.shields.io/badge/Security-Strict%20JWT%20Tokens-000000.svg?style=flat&logo=jsonwebtokens)](https://jwt.io)
 
 ---
 
-## 🌐 Live Production Deployment
+## 🌐 Live Production Deployments
 
-- **Live Railway API Base URL:** [https://fastapi-media-service-production.up.railway.app](https://fastapi-media-service-production.up.railway.app)
-- **Interactive Web Demo UI:** [https://fastapi-media-service-production.up.railway.app/demo](https://fastapi-media-service-production.up.railway.app/demo)
-- **Interactive Swagger Documentation:** [https://fastapi-media-service-production.up.railway.app/docs](https://fastapi-media-service-production.up.railway.app/docs)
-- **Health Check Endpoint:** [https://fastapi-media-service-production.up.railway.app/api/health](https://fastapi-media-service-production.up.railway.app/api/health)
+- 🎨 **Live Vercel Web Frontend:** [https://reacttailwind-nine.vercel.app](https://reacttailwind-nine.vercel.app)
+- 🚀 **Live Railway Production Backend:** [https://fastapi-media-service-production.up.railway.app](https://fastapi-media-service-production.up.railway.app)
+- ⚡ **Interactive Backend Demo UI:** [https://fastapi-media-service-production.up.railway.app/demo](https://fastapi-media-service-production.up.railway.app/demo)
+- 📖 **Interactive Swagger Documentation:** [https://fastapi-media-service-production.up.railway.app/docs](https://fastapi-media-service-production.up.railway.app/docs)
+- 🩺 **Health Check Endpoint:** [https://fastapi-media-service-production.up.railway.app/api/health](https://fastapi-media-service-production.up.railway.app/api/health)
 
 ---
 
 ## 🎨 React + Tailwind Frontend (`/reacttailwind`)
 
-Inside the `reacttailwind/` directory is a responsive React web dashboard connected live to the backend API with the following features:
+Hosted on Vercel and connected live to your Railway backend API:
 
 - 🌓 **Dark & Light Mode Switcher**: Smooth theme toggle persisted in `localStorage`.
 - 📱 **Responsive Sidebar & Navigation**: Mobile slide-over drawer with backdrop blur, desktop persistent navigation menu bar, and active indicators.
@@ -49,7 +51,7 @@ fastapi-media-service/
 ├── docs/
 │   └── images/
 │       └── interactive_demo_ui.png  # Interactive UI Preview Screenshot Sample
-├── reacttailwind/              # React + Tailwind CSS Web Application
+├── reacttailwind/              # React + Tailwind CSS Web Application (Hosted on Vercel)
 │   ├── package.json
 │   ├── vite.config.js
 │   └── src/
@@ -67,7 +69,7 @@ fastapi-media-service/
             ├── UserProfile.jsx # Profile card, JWT Token box, & Auth forms
             ├── AddMediaModal.jsx# Protected Media Creation Modal
             └── PlayerModal.jsx # Audio/Video Stream Player Modal
-└── fastapi_app/                # Main Python FastAPI Web Service
+└── fastapi_app/                # Main Python FastAPI Web Service (Hosted on Railway)
     ├── .env                    # Active environment variables (Supabase URL & JWT Secret)
     ├── requirements.txt        # Dependencies
     ├── media-1000.json         # 833 media items dataset
@@ -87,23 +89,3 @@ fastapi-media-service/
         └── static/
             └── index.html      # Interactive Web Test Client UI (/demo)
 ```
-
----
-
-## 🛠 Step-by-Step Setup Guide
-
-### 1. Run Backend Server (FastAPI)
-```bash
-cd fastapi_app
-pip install -r requirements.txt
-python -m uvicorn app.main:app --reload --port 8000
-```
-
-### 2. Run Frontend Web App (React + Tailwind)
-```bash
-cd reacttailwind
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser!
